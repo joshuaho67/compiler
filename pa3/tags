@@ -1,0 +1,672 @@
+ASSIGN	cool.tab.h	64
+ASSIGN	cool.tab.h	93
+ASSIGN	cool.tab.c	241
+BEGIN	tokens-lex.cc	169
+BOOL	tokens-lex.cc	739
+BOOL_CONST	cool.tab.h	61
+BOOL_CONST	cool.tab.h	90
+BOOL_CONST	cool.tab.c	238
+CASE	cool.tab.h	53
+CASE	cool.tab.h	82
+CASE	cool.tab.c	230
+CLASS	cool.tab.h	42
+CLASS	cool.tab.h	71
+CLASS	cool.tab.c	219
+COOL_TREE_HANDCODE_H	cool-tree.handcode.h	5
+Case	cool-tree.handcode.h	34
+Case_EXTRAS	cool-tree.handcode.h	84
+Cases	cool-tree.handcode.h	45
+Cases_class	cool-tree.handcode.h	44
+Class_	cool-tree.handcode.h	26
+Class__EXTRAS	cool-tree.handcode.h	55
+Classes	cool-tree.handcode.h	37
+Classes_class	cool-tree.handcode.h	36
+DARROW	cool.tab.h	56
+DARROW	cool.tab.h	85
+DARROW	cool.tab.c	233
+ECHO	tokens-lex.cc	865
+ELSE	cool.tab.h	43
+ELSE	cool.tab.h	72
+ELSE	cool.tab.c	220
+EOB_ACT_CONTINUE_SCAN	tokens-lex.cc	218
+EOB_ACT_END_OF_FILE	tokens-lex.cc	219
+EOB_ACT_LAST_MATCH	tokens-lex.cc	220
+ERR	tokens-lex.cc	737
+ERROR	cool.tab.h	67
+ERROR	cool.tab.h	96
+ERROR	cool.tab.c	244
+ESAC	cool.tab.h	54
+ESAC	cool.tab.h	83
+ESAC	cool.tab.c	231
+Entry::Entry	stringtab.cc	/^Entry::Entry(char *s, int l, int i) : len(l), inde/
+Entry::equal_string	stringtab.cc	/^int Entry::equal_string(char *string, int length) /
+Entry::get_len	stringtab.cc	/^int Entry::get_len() const$/
+Entry::get_string	stringtab.cc	/^char *Entry::get_string() const$/
+Entry::print	stringtab.cc	/^ostream& Entry::print(ostream& s) const$/
+Expression	cool-tree.handcode.h	32
+Expression_EXTRAS	cool-tree.handcode.h	92
+Expression_SHARED_EXTRAS	cool-tree.handcode.h	102
+Expression_class::dump_type	dumptype.cc	/^void Expression_class::dump_type(ostream& stream, /
+Expressions	cool-tree.handcode.h	43
+Expressions_class	cool-tree.handcode.h	42
+FI	cool.tab.h	44
+FI	cool.tab.h	73
+FI	cool.tab.c	221
+FLEXINT_H	tokens-lex.cc	55
+FLEX_BETA	tokens-lex.cc	23
+FLEX_DEBUG	tokens-lex.cc	418
+FLEX_SCANNER	tokens-lex.cc	18
+Feature	cool-tree.handcode.h	28
+Feature_EXTRAS	cool-tree.handcode.h	65
+Feature_SHARED_EXTRAS	cool-tree.handcode.h	69
+Features	cool-tree.handcode.h	39
+Features_class	cool-tree.handcode.h	38
+Formal	cool-tree.handcode.h	30
+Formal_EXTRAS	cool-tree.handcode.h	76
+Formals	cool-tree.handcode.h	41
+Formals_class	cool-tree.handcode.h	40
+IF	cool.tab.h	45
+IF	cool.tab.h	74
+IF	cool.tab.c	222
+IN	cool.tab.h	46
+IN	cool.tab.h	75
+IN	cool.tab.c	223
+INHERITS	cool.tab.h	47
+INHERITS	cool.tab.h	76
+INHERITS	cool.tab.c	224
+INITIAL	tokens-lex.cc	734
+INT	tokens-lex.cc	738
+INT16_MAX	tokens-lex.cc	97
+INT16_MIN	tokens-lex.cc	88
+INT32_MAX	tokens-lex.cc	100
+INT32_MIN	tokens-lex.cc	91
+INT8_MAX	tokens-lex.cc	94
+INT8_MIN	tokens-lex.cc	85
+INT_CONST	cool.tab.h	60
+INT_CONST	cool.tab.h	89
+INT_CONST	cool.tab.c	237
+ISVOID	cool.tab.h	58
+ISVOID	cool.tab.h	87
+ISVOID	cool.tab.c	235
+IdEntry::IdEntry	stringtab.cc	/^IdEntry::IdEntry(char *s, int l, int i) : Entry(s,/
+IntEntry::IntEntry	stringtab.cc	/^IntEntry::IntEntry(char *s, int l, int i) : Entry(/
+LE	cool.tab.h	66
+LE	cool.tab.h	95
+LE	cool.tab.c	243
+LET	cool.tab.h	48
+LET	cool.tab.h	77
+LET	cool.tab.c	225
+LOOP	cool.tab.h	49
+LOOP	cool.tab.h	78
+LOOP	cool.tab.c	226
+MAX_STR_CONST	tokens.flex	14
+Mparser-phase.cc	parser-phase.cc	/^int main(int argc, char *argv[]) {$/
+NEW	cool.tab.h	57
+NEW	cool.tab.h	86
+NEW	cool.tab.c	234
+NOT	cool.tab.h	65
+NOT	cool.tab.h	94
+NOT	cool.tab.c	242
+OBJECTID	cool.tab.h	63
+OBJECTID	cool.tab.h	92
+OBJECTID	cool.tab.c	240
+OBJSYM	tokens-lex.cc	741
+OF	cool.tab.h	55
+OF	cool.tab.h	84
+OF	cool.tab.c	232
+POOL	cool.tab.h	50
+POOL	cool.tab.h	79
+POOL	cool.tab.c	227
+Program	cool-tree.handcode.h	24
+Program_EXTRAS	cool-tree.handcode.h	47
+REJECT	tokens-lex.cc	688
+SET_NODELOC	cool.y	/^    #define SET_NODELOC(Current)  \\$/
+STR	tokens-lex.cc	736
+STRING	tokens-lex.cc	742
+STR_CONST	cool.tab.h	59
+STR_CONST	cool.tab.h	88
+STR_CONST	cool.tab.c	236
+StringEntry::StringEntry	stringtab.cc	/^StringEntry::StringEntry(char *s, int l, int i) : /
+THEN	cool.tab.h	51
+THEN	cool.tab.h	80
+THEN	cool.tab.c	228
+TOKEN	tokens-lex.cc	735
+TYPEID	cool.tab.h	62
+TYPEID	cool.tab.h	91
+TYPEID	cool.tab.c	239
+TYPSYM	tokens-lex.cc	740
+UINT16_MAX	tokens-lex.cc	106
+UINT32_MAX	tokens-lex.cc	109
+UINT8_MAX	tokens-lex.cc	103
+WHILE	cool.tab.h	52
+WHILE	cool.tab.h	81
+WHILE	cool.tab.c	229
+YYABORT	cool.tab.c	883
+YYACCEPT	cool.tab.c	882
+YYBACKUP	cool.tab.c	/^#define YYBACKUP(Token, Value)					\\$/
+YYBISON	cool-parse.cc	46
+YYBISON_VERSION	cool-parse.cc	49
+YYCOPY	cool.tab.c	/^#   define YYCOPY(To, From, Count) \\$/
+YYCOPY	cool.tab.c	/^#   define YYCOPY(To, From, Count)		\\$/
+YYDEBUG	cool.tab.c	167
+YYDPRINTF	cool.tab.c	/^# define YYDPRINTF(Args)			\\$/
+YYEMPTY	cool.tab.c	879
+YYEOF	cool.tab.c	880
+YYERRCODE	cool.tab.c	914
+YYERROR	cool.tab.c	884
+YYERROR_VERBOSE	cool.tab.c	172
+YYERROR_VERBOSE	cool.tab.c	173
+YYERROR_VERBOSE	cool.tab.c	175
+YYFAIL	cool.tab.c	891
+YYFINAL	cool.tab.c	514
+YYFPRINTF	cool.tab.c	972
+YYFREE	cool.tab.c	445
+YYID	cool.tab.c	/^# define YYID(n) (n)$/
+YYLAST	cool.tab.c	516
+YYLEX	cool.tab.c	962
+YYLEX	cool.tab.c	964
+YYLLOC_DEFAULT	cool.tab.c	/^# define YYLLOC_DEFAULT(Current, Rhs, N)				\\$/
+YYLLOC_DEFAULT	cool.y	/^      #define YYLLOC_DEFAULT(Current, Rhs, N)     /
+YYLSP_NEEDED	cool-parse.cc	64
+YYLTYPE	cool.tab.h	136
+YYLTYPE	cool.tab.h	142
+YYLTYPE	cool.tab.c	282
+YYLTYPE	cool.tab.c	288
+YYLTYPE	cool.y	16
+YYLTYPE::first_column	cool.tab.c	285
+YYLTYPE::first_line	cool.tab.c	284
+YYLTYPE::last_column	cool.tab.c	287
+YYLTYPE::last_line	cool.tab.c	286
+YYLTYPE_IS_DECLARED	cool.tab.h	144
+YYLTYPE_IS_DECLARED	cool.tab.c	290
+YYLTYPE_IS_TRIVIAL	cool.tab.h	145
+YYLTYPE_IS_TRIVIAL	cool.tab.c	291
+YYMALLOC	cool.tab.c	438
+YYMAXUTOK	cool.tab.c	529
+YYNNTS	cool.tab.c	521
+YYNRULES	cool.tab.c	523
+YYNSTATES	cool.tab.c	525
+YYNTOKENS	cool.tab.c	519
+YYPACT_NINF	cool.tab.c	714
+YYPULL	cool-parse.cc	61
+YYPURE	cool-parse.cc	55
+YYPUSH	cool-parse.cc	58
+YYRECOVERING	cool.tab.c	/^#define YYRECOVERING()  (!!yyerrstatus)$/
+YYRHSLOC	cool.tab.c	/^#define YYRHSLOC(Rhs, K) ((Rhs)[K])$/
+YYSIZE_MAXIMUM	cool.tab.c	346
+YYSIZE_T	cool.tab.c	334
+YYSIZE_T	cool.tab.c	336
+YYSIZE_T	cool.tab.c	340
+YYSIZE_T	cool.tab.c	342
+YYSKELETON_NAME	cool-parse.cc	52
+YYSTACK_ALLOC	cool.tab.c	392
+YYSTACK_ALLOC	cool.tab.c	396
+YYSTACK_ALLOC	cool.tab.c	401
+YYSTACK_ALLOC	cool.tab.c	424
+YYSTACK_ALLOC_MAXIMUM	cool.tab.c	421
+YYSTACK_ALLOC_MAXIMUM	cool.tab.c	427
+YYSTACK_BYTES	cool.tab.c	/^# define YYSTACK_BYTES(N) \\$/
+YYSTACK_FREE	cool.tab.c	/^#  define YYSTACK_FREE(Ptr) do { \/* empty *\/; } wh/
+YYSTACK_FREE	cool.tab.c	425
+YYSTACK_GAP_MAXIMUM	cool.tab.c	469
+YYSTACK_RELOCATE	cool.tab.c	/^# define YYSTACK_RELOCATE(Stack_alloc, Stack)				\\/
+YYSTATE	tokens-lex.cc	176
+YYSTYPE	cool.tab.h	102
+YYSTYPE	cool.tab.h	127
+YYSTYPE	cool.tab.c	250
+YYSTYPE	cool.tab.c	275
+YYSTYPE_IS_DECLARED	cool.tab.h	130
+YYSTYPE_IS_DECLARED	cool.tab.c	278
+YYSTYPE_IS_TRIVIAL	cool.tab.h	128
+YYSTYPE_IS_TRIVIAL	cool.tab.c	276
+YYTABLES_NAME	tokens-lex.cc	2548
+YYTABLE_NINF	cool.tab.c	747
+YYTERROR	cool.tab.c	913
+YYTOKENTYPE	cool.tab.h	38
+YYTOKENTYPE	cool.tab.c	186
+YYTOKEN_TABLE	cool.tab.c	180
+YYTRANSLATE	cool.tab.c	/^#define YYTRANSLATE(YYX)						\\$/
+YYUNDEFTOK	cool.tab.c	528
+YYUSE	cool.tab.c	/^# define YYUSE(e) ((void) (e))$/
+YYUSE	cool.tab.c	/^# define YYUSE(e) \/* empty *\/$/
+YY_	cool.tab.c	/^#   define YY_(msgid) dgettext ("bison-runtime", m/
+YY_	cool.tab.c	/^#  define YY_(msgid) msgid$/
+YY_AT_BOL	tokens-lex.cc	/^#define YY_AT_BOL() (YY_CURRENT_BUFFER_LVALUE->yy_/
+YY_BREAK	tokens-lex.cc	969
+YY_BUFFER_EOF_PENDING	tokens-lex.cc	310
+YY_BUFFER_NEW	tokens-lex.cc	298
+YY_BUFFER_NORMAL	tokens-lex.cc	299
+YY_BUFFER_STATE	tokens-lex.cc	205
+YY_BUF_SIZE	tokens-lex.cc	193
+YY_BUF_SIZE	tokens-lex.cc	195
+YY_CHAR	tokens-lex.cc	420
+YY_CURRENT_BUFFER	tokens-lex.cc	335
+YY_CURRENT_BUFFER_LVALUE	tokens-lex.cc	342
+YY_DECL	tokens-lex.cc	954
+YY_DECL_IS_OURS	tokens-lex.cc	949
+YY_DO_BEFORE_ACTION	tokens-lex.cc	445
+YY_END_OF_BUFFER	tokens-lex.cc	456
+YY_END_OF_BUFFER_CHAR	tokens-lex.cc	184
+YY_EXIT_FAILURE	tokens-lex.cc	2320
+YY_EXTRA_TYPE	tokens-lex.cc	757
+YY_FATAL_ERROR	tokens-lex.cc	/^#define YY_FATAL_ERROR(msg) yy_fatal_error( msg )$/
+YY_FLEX_MAJOR_VERSION	tokens-lex.cc	19
+YY_FLEX_MINOR_VERSION	tokens-lex.cc	20
+YY_FLEX_SUBMINOR_VERSION	tokens-lex.cc	21
+YY_FLUSH_BUFFER	tokens-lex.cc	379
+YY_INPUT	tokens.flex	24
+YY_INPUT	tokens.flex	/^#define YY_INPUT(buf,result,max_size) \\$/
+YY_INPUT	tokens-lex.cc	/^#define YY_INPUT(buf,result,max_size) \\$/
+YY_INT_ALIGNED	tokens-lex.cc	5
+YY_LESS_LINENO	tokens-lex.cc	/^    #define YY_LESS_LINENO(n)$/
+YY_LOCATION_PRINT	cool.tab.c	/^#  define YY_LOCATION_PRINT(File, Loc)			\\$/
+YY_LOCATION_PRINT	cool.tab.c	/^#  define YY_LOCATION_PRINT(File, Loc) ((void) 0)$/
+YY_MORE_ADJ	tokens-lex.cc	690
+YY_NEW_FILE	tokens-lex.cc	182
+YY_NO_UNPUT	tokens.flex	15
+YY_NULL	tokens-lex.cc	145
+YY_NUM_RULES	tokens-lex.cc	455
+YY_READ_BUF_SIZE	tokens-lex.cc	853
+YY_READ_BUF_SIZE	tokens-lex.cc	855
+YY_RESTORE_YY_MORE_OFFSET	tokens-lex.cc	691
+YY_RULE_SETUP	tokens-lex.cc	973
+YY_SC_TO_UI	tokens-lex.cc	/^#define YY_SC_TO_UI(c) ((unsigned int) (unsigned c/
+YY_START	tokens-lex.cc	175
+YY_START_STACK_INCR	tokens-lex.cc	920
+YY_STATE_BUF_SIZE	tokens-lex.cc	201
+YY_STATE_EOF	tokens-lex.cc	/^#define YY_STATE_EOF(state) (YY_END_OF_BUFFER + st/
+YY_STRUCT_YY_BUFFER_STATE	tokens-lex.cc	246
+YY_SYMBOL_PRINT	cool.tab.c	/^# define YY_SYMBOL_PRINT(Title, Type, Value, Locat/
+YY_TYPEDEF_YY_BUFFER_STATE	tokens-lex.cc	204
+YY_TYPEDEF_YY_SIZE_T	tokens-lex.cc	241
+YY_USER_ACTION	tokens-lex.cc	964
+YY_USE_CONST	tokens-lex.cc	124
+YY_USE_CONST	tokens-lex.cc	131
+_STDLIB_H	cool.tab.c	406
+_STDLIB_H	cool.tab.c	434
+__STDC_LIMIT_MACROS	tokens-lex.cc	65
+alloca	cool.tab.c	399
+append_Cases	cool-tree.cc	/^Cases append_Cases(Cases p1, Cases p2)$/
+append_Classes	cool-tree.cc	/^Classes append_Classes(Classes p1, Classes p2)$/
+append_Expressions	cool-tree.cc	/^Expressions append_Expressions(Expressions p1, Exp/
+append_Features	cool-tree.cc	/^Features append_Features(Features p1, Features p2)/
+append_Formals	cool-tree.cc	/^Formals append_Formals(Formals p1, Formals p2)$/
+assert_Boolean	cool-tree.handcode.h	/^inline void assert_Boolean(Boolean) {}$/
+assign	cool-tree.cc	/^Expression assign(Symbol name, Expression expr)$/
+assign_class::copy_Expression	cool-tree.cc	/^Expression assign_class::copy_Expression()$/
+assign_class::dump	cool-tree.cc	/^void assign_class::dump(ostream& stream, int n)$/
+assign_class::dump_with_types	dumptype.cc	/^void assign_class::dump_with_types(ostream& stream/
+ast_root	cool.y	83
+attr	cool-tree.cc	/^Feature attr(Symbol name, Symbol type_decl, Expres/
+attr_class::copy_Feature	cool-tree.cc	/^Feature attr_class::copy_Feature()$/
+attr_class::dump	cool-tree.cc	/^void attr_class::dump(ostream& stream, int n)$/
+attr_class::dump_with_types	dumptype.cc	/^void attr_class::dump_with_types(ostream& stream, /
+block	cool-tree.cc	/^Expression block(Expressions body)$/
+block_class::copy_Expression	cool-tree.cc	/^Expression block_class::copy_Expression()$/
+block_class::dump	cool-tree.cc	/^void block_class::dump(ostream& stream, int n)$/
+block_class::dump_with_types	dumptype.cc	/^void block_class::dump_with_types(ostream& stream,/
+bool_const	cool-tree.cc	/^Expression bool_const(Boolean val)$/
+bool_const_class::copy_Expression	cool-tree.cc	/^Expression bool_const_class::copy_Expression()$/
+bool_const_class::dump	cool-tree.cc	/^void bool_const_class::dump(ostream& stream, int n/
+bool_const_class::dump_with_types	dumptype.cc	/^void bool_const_class::dump_with_types(ostream& st/
+boolean	cool.y	90
+branch	cool-tree.cc	/^Case branch(Symbol name, Symbol type_decl, Express/
+branch_EXTRAS	cool-tree.handcode.h	88
+branch_class::copy_Case	cool-tree.cc	/^Case branch_class::copy_Case()$/
+branch_class::dump	cool-tree.cc	/^void branch_class::dump(ostream& stream, int n)$/
+branch_class::dump_with_types	dumptype.cc	/^void branch_class::dump_with_types(ostream& stream/
+case_	cool.y	99
+cases	cool.y	100
+cgen_Memmgr	handle_flags.cc	34
+cgen_Memmgr_Debug	handle_flags.cc	36
+cgen_Memmgr_Test	handle_flags.cc	35
+cgen_debug	handle_flags.cc	29
+cgen_optimize	handle_flags.cc	32
+class_	cool-tree.cc	/^Class_ class_(Symbol name, Symbol parent, Features/
+class_	cool.y	93
+class__EXTRAS	cool-tree.handcode.h	60
+class__class::copy_Class_	cool-tree.cc	/^Class_ class__class::copy_Class_()$/
+class__class::dump	cool-tree.cc	/^void class__class::dump(ostream& stream, int n)$/
+class__class::dump_with_types	dumptype.cc	/^void class__class::dump_with_types(ostream& stream/
+classes	cool.y	94
+comp	cool-tree.cc	/^Expression comp(Expression e1)$/
+comp_class::copy_Expression	cool-tree.cc	/^Expression comp_class::copy_Expression()$/
+comp_class::dump	cool-tree.cc	/^void comp_class::dump(ostream& stream, int n)$/
+comp_class::dump_with_types	dumptype.cc	/^void comp_class::dump_with_types(ostream& stream, /
+cond	cool-tree.cc	/^Expression cond(Expression pred, Expression then_e/
+cond_class::copy_Expression	cool-tree.cc	/^Expression cond_class::copy_Expression()$/
+cond_class::dump	cool-tree.cc	/^void cond_class::dump(ostream& stream, int n)$/
+cond_class::dump_with_types	dumptype.cc	/^void cond_class::dump_with_types(ostream& stream, /
+cool_token_to_string	utilities.cc	/^char *cool_token_to_string(int tok)$/
+cool_yylloc	cool.y	17
+copy_Boolean	cool-tree.handcode.h	/^inline Boolean copy_Boolean(Boolean b) {return b; /
+copy_Symbol	stringtab.cc	/^Symbol copy_Symbol(const Symbol s)$/
+curr_filename	parser-phase.cc	30
+disable_reg_alloc	handle_flags.cc	30
+dispatch	cool-tree.cc	/^Expression dispatch(Expression expr, Symbol name, /
+dispatch_class::copy_Expression	cool-tree.cc	/^Expression dispatch_class::copy_Expression()$/
+dispatch_class::dump	cool-tree.cc	/^void dispatch_class::dump(ostream& stream, int n)$/
+dispatch_class::dump_with_types	dumptype.cc	/^void dispatch_class::dump_with_types(ostream& stre/
+divide	cool-tree.cc	/^Expression divide(Expression e1, Expression e2)$/
+divide_class::copy_Expression	cool-tree.cc	/^Expression divide_class::copy_Expression()$/
+divide_class::dump	cool-tree.cc	/^void divide_class::dump(ostream& stream, int n)$/
+divide_class::dump_with_types	dumptype.cc	/^void divide_class::dump_with_types(ostream& stream/
+dump_Boolean	cool-tree.handcode.h	/^inline void dump_Boolean(ostream& stream, int padd/
+dump_Symbol	stringtab.cc	/^void dump_Symbol(ostream& s, int n, Symbol sym)$/
+dump_cool_token	utilities.cc	/^void dump_cool_token(ostream& out, int lineno, int/
+dump_line	dumptype.cc	/^void dump_line(ostream& stream, int n, tree_node */
+eq	cool-tree.cc	/^Expression eq(Expression e1, Expression e2)$/
+eq_class::copy_Expression	cool-tree.cc	/^Expression eq_class::copy_Expression()$/
+eq_class::dump	cool-tree.cc	/^void eq_class::dump(ostream& stream, int n)$/
+eq_class::dump_with_types	dumptype.cc	/^void eq_class::dump_with_types(ostream& stream, in/
+error_msg	cool.y	103
+expression	cool.y	101
+expressions	cool.y	102
+fatal_error	utilities.cc	/^void fatal_error(char *msg)$/
+feature	cool.y	95
+features	cool.y	96
+first_column	cool.tab.h	139
+first_line	cool.tab.h	138
+flex_int16_t	tokens-lex.cc	71
+flex_int16_t	tokens-lex.cc	77
+flex_int32_t	tokens-lex.cc	73
+flex_int32_t	tokens-lex.cc	78
+flex_int8_t	tokens-lex.cc	69
+flex_int8_t	tokens-lex.cc	76
+flex_uint16_t	tokens-lex.cc	72
+flex_uint16_t	tokens-lex.cc	80
+flex_uint32_t	tokens-lex.cc	74
+flex_uint32_t	tokens-lex.cc	81
+flex_uint8_t	tokens-lex.cc	70
+flex_uint8_t	tokens-lex.cc	79
+formal	cool-tree.cc	/^Formal formal(Symbol name, Symbol type_decl)$/
+formal	cool.y	97
+formal_EXTRAS	cool-tree.handcode.h	80
+formal_class::copy_Formal	cool-tree.cc	/^Formal formal_class::copy_Formal()$/
+formal_class::dump	cool-tree.cc	/^void formal_class::dump(ostream& stream, int n)$/
+formal_class::dump_with_types	dumptype.cc	/^void formal_class::dump_with_types(ostream& stream/
+formals	cool.y	98
+handle_flags	handle_flags.cc	/^void handle_flags(int argc, char *argv[]) {$/
+idtable	stringtab.cc	77
+int_const	cool-tree.cc	/^Expression int_const(Symbol token)$/
+int_const_class::copy_Expression	cool-tree.cc	/^Expression int_const_class::copy_Expression()$/
+int_const_class::dump	cool-tree.cc	/^void int_const_class::dump(ostream& stream, int n)/
+int_const_class::dump_with_types	dumptype.cc	/^void int_const_class::dump_with_types(ostream& str/
+inttable	stringtab.cc	78
+isvoid	cool-tree.cc	/^Expression isvoid(Expression e1)$/
+isvoid_class::copy_Expression	cool-tree.cc	/^Expression isvoid_class::copy_Expression()$/
+isvoid_class::dump	cool-tree.cc	/^void isvoid_class::dump(ostream& stream, int n)$/
+isvoid_class::dump_with_types	dumptype.cc	/^void isvoid_class::dump_with_types(ostream& stream/
+last_column	cool.tab.h	141
+last_line	cool.tab.h	140
+leq	cool-tree.cc	/^Expression leq(Expression e1, Expression e2)$/
+leq_class::copy_Expression	cool-tree.cc	/^Expression leq_class::copy_Expression()$/
+leq_class::dump	cool-tree.cc	/^void leq_class::dump(ostream& stream, int n)$/
+leq_class::dump_with_types	dumptype.cc	/^void leq_class::dump_with_types(ostream& stream, i/
+let	cool-tree.cc	/^Expression let(Symbol identifier, Symbol type_decl/
+let_class::copy_Expression	cool-tree.cc	/^Expression let_class::copy_Expression()$/
+let_class::dump	cool-tree.cc	/^void let_class::dump(ostream& stream, int n)$/
+let_class::dump_with_types	dumptype.cc	/^void let_class::dump_with_types(ostream& stream, i/
+lex_verbose	handle_flags.cc	27
+loop	cool-tree.cc	/^Expression loop(Expression pred, Expression body)$/
+loop_class::copy_Expression	cool-tree.cc	/^Expression loop_class::copy_Expression()$/
+loop_class::dump	cool-tree.cc	/^void loop_class::dump(ostream& stream, int n)$/
+loop_class::dump_with_types	dumptype.cc	/^void loop_class::dump_with_types(ostream& stream, /
+lt	cool-tree.cc	/^Expression lt(Expression e1, Expression e2)$/
+lt_class::copy_Expression	cool-tree.cc	/^Expression lt_class::copy_Expression()$/
+lt_class::dump	cool-tree.cc	/^void lt_class::dump(ostream& stream, int n)$/
+lt_class::dump_with_types	dumptype.cc	/^void lt_class::dump_with_types(ostream& stream, in/
+method	cool-tree.cc	/^Feature method(Symbol name, Formals formals, Symbo/
+method_class::copy_Feature	cool-tree.cc	/^Feature method_class::copy_Feature()$/
+method_class::dump	cool-tree.cc	/^void method_class::dump(ostream& stream, int n)$/
+method_class::dump_with_types	dumptype.cc	/^void method_class::dump_with_types(ostream& stream/
+mul	cool-tree.cc	/^Expression mul(Expression e1, Expression e2)$/
+mul_class::copy_Expression	cool-tree.cc	/^Expression mul_class::copy_Expression()$/
+mul_class::dump	cool-tree.cc	/^void mul_class::dump(ostream& stream, int n)$/
+mul_class::dump_with_types	dumptype.cc	/^void mul_class::dump_with_types(ostream& stream, i/
+neg	cool-tree.cc	/^Expression neg(Expression e1)$/
+neg_class::copy_Expression	cool-tree.cc	/^Expression neg_class::copy_Expression()$/
+neg_class::dump	cool-tree.cc	/^void neg_class::dump(ostream& stream, int n)$/
+neg_class::dump_with_types	dumptype.cc	/^void neg_class::dump_with_types(ostream& stream, i/
+new_	cool-tree.cc	/^Expression new_(Symbol type_name)$/
+new__class::copy_Expression	cool-tree.cc	/^Expression new__class::copy_Expression()$/
+new__class::dump	cool-tree.cc	/^void new__class::dump(ostream& stream, int n)$/
+new__class::dump_with_types	dumptype.cc	/^void new__class::dump_with_types(ostream& stream, /
+nil_Cases	cool-tree.cc	/^Cases nil_Cases()$/
+nil_Classes	cool-tree.cc	/^Classes nil_Classes()$/
+nil_Expressions	cool-tree.cc	/^Expressions nil_Expressions()$/
+nil_Features	cool-tree.cc	/^Features nil_Features()$/
+nil_Formals	cool-tree.cc	/^Formals nil_Formals()$/
+no_expr	cool-tree.cc	/^Expression no_expr()$/
+no_expr_class::copy_Expression	cool-tree.cc	/^Expression no_expr_class::copy_Expression()$/
+no_expr_class::dump	cool-tree.cc	/^void no_expr_class::dump(ostream& stream, int n)$/
+no_expr_class::dump_with_types	dumptype.cc	/^void no_expr_class::dump_with_types(ostream& strea/
+node_lineno	tree.cc	19
+object	cool-tree.cc	/^Expression object(Symbol name)$/
+object_class::copy_Expression	cool-tree.cc	/^Expression object_class::copy_Expression()$/
+object_class::dump	cool-tree.cc	/^void object_class::dump(ostream& stream, int n)$/
+object_class::dump_with_types	dumptype.cc	/^void object_class::dump_with_types(ostream& stream/
+omerrs	cool.y	85
+operator<<	stringtab.cc	/^ostream& operator<<(ostream& s, const Entry& sym) /
+operator<<	stringtab.cc	/^ostream& operator<<(ostream& s, Symbol sym)$/
+out_filename	handle_flags.cc	33
+pad	utilities.cc	/^char *pad(int n) {$/
+padding	utilities.cc	34
+parse_results	cool.y	84
+plus	cool-tree.cc	/^Expression plus(Expression e1, Expression e2)$/
+plus_class::copy_Expression	cool-tree.cc	/^Expression plus_class::copy_Expression()$/
+plus_class::dump	cool-tree.cc	/^void plus_class::dump(ostream& stream, int n)$/
+plus_class::dump_with_types	dumptype.cc	/^void plus_class::dump_with_types(ostream& stream, /
+prevstate	tokens.flex	36
+print_cool_token	utilities.cc	/^void print_cool_token(int tok)$/
+print_escaped_string	utilities.cc	/^void print_escaped_string(ostream& str, const char/
+program	cool-tree.cc	/^Program program(Classes classes)$/
+program	cool.y	92
+program_EXTRAS	cool-tree.handcode.h	52
+program_class::copy_Program	cool-tree.cc	/^Program program_class::copy_Program()$/
+program_class::dump	cool-tree.cc	/^void program_class::dump(ostream& stream, int n)$/
+program_class::dump_with_types	dumptype.cc	/^void program_class::dump_with_types(ostream& strea/
+semant_debug	handle_flags.cc	28
+short	cool.tab.c	302
+single_Cases	cool-tree.cc	/^Cases single_Cases(Case e)$/
+single_Classes	cool-tree.cc	/^Classes single_Classes(Class_ e)$/
+single_Expressions	cool-tree.cc	/^Expressions single_Expressions(Expression e)$/
+single_Features	cool-tree.cc	/^Features single_Features(Feature e)$/
+single_Formals	cool-tree.cc	/^Formals single_Formals(Formal e)$/
+static_dispatch	cool-tree.cc	/^Expression static_dispatch(Expression expr, Symbol/
+static_dispatch_class::copy_Expression	cool-tree.cc	/^Expression static_dispatch_class::copy_Expression(/
+static_dispatch_class::dump	cool-tree.cc	/^void static_dispatch_class::dump(ostream& stream, /
+static_dispatch_class::dump_with_types	dumptype.cc	/^void static_dispatch_class::dump_with_types(ostrea/
+strdup	utilities.cc	/^char *strdup(const char *s)$/
+string_buf	tokens.flex	29
+string_buf_ptr	tokens.flex	30
+string_const	cool-tree.cc	/^Expression string_const(Symbol token)$/
+string_const_class::copy_Expression	cool-tree.cc	/^Expression string_const_class::copy_Expression()$/
+string_const_class::dump	cool-tree.cc	/^void string_const_class::dump(ostream& stream, int/
+string_const_class::dump_with_types	dumptype.cc	/^void string_const_class::dump_with_types(ostream& /
+stringtable	stringtab.cc	79
+sub	cool-tree.cc	/^Expression sub(Expression e1, Expression e2)$/
+sub_class::copy_Expression	cool-tree.cc	/^Expression sub_class::copy_Expression()$/
+sub_class::dump	cool-tree.cc	/^void sub_class::dump(ostream& stream, int n)$/
+sub_class::dump_with_types	dumptype.cc	/^void sub_class::dump_with_types(ostream& stream, i/
+symbol	cool.y	91
+token_file	parser-phase.cc	25
+tree_node::get_line_number	tree.cc	/^int tree_node::get_line_number()$/
+tree_node::set	tree.cc	/^tree_node *tree_node::set(tree_node *t) {$/
+tree_node::tree_node	tree.cc	/^tree_node::tree_node()$/
+typcase	cool-tree.cc	/^Expression typcase(Expression expr, Cases cases)$/
+typcase_class::copy_Expression	cool-tree.cc	/^Expression typcase_class::copy_Expression()$/
+typcase_class::dump	cool-tree.cc	/^void typcase_class::dump(ostream& stream, int n)$/
+typcase_class::dump_with_types	dumptype.cc	/^void typcase_class::dump_with_types(ostream& strea/
+unput	tokens-lex.cc	/^#define unput(c) yyunput( c, (yytext_ptr)  )$/
+yy_accept	tokens-lex.cc	464
+yy_base	tokens-lex.cc	529
+yy_buffer_stack	tokens-lex.cc	323
+yy_buffer_stack_max	tokens-lex.cc	322
+yy_buffer_stack_top	tokens-lex.cc	321
+yy_buffer_state	tokens-lex.cc	247
+yy_buffer_state::yy_at_bol	tokens-lex.cc	286
+yy_buffer_state::yy_bs_column	tokens-lex.cc	289
+yy_buffer_state::yy_bs_lineno	tokens-lex.cc	288
+yy_buffer_state::yy_buf_pos	tokens-lex.cc	257
+yy_buffer_state::yy_buf_size	tokens-lex.cc	262
+yy_buffer_state::yy_buffer_status	tokens-lex.cc	296
+yy_buffer_state::yy_ch_buf	tokens-lex.cc	256
+yy_buffer_state::yy_fill_buffer	tokens-lex.cc	294
+yy_buffer_state::yy_input_file	tokens-lex.cc	250
+yy_buffer_state::yy_is_interactive	tokens-lex.cc	280
+yy_buffer_state::yy_is_our_buffer	tokens-lex.cc	273
+yy_buffer_state::yy_n_chars	tokens-lex.cc	267
+yy_c_buf_p	tokens-lex.cc	355
+yy_chk	tokens-lex.cc	626
+yy_create_buffer	tokens-lex.cc	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file/
+yy_def	tokens-lex.cc	556
+yy_delete_buffer	tokens-lex.cc	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/
+yy_did_buffer_switch_on_eof	tokens-lex.cc	362
+yy_ec	tokens-lex.cc	488
+yy_fatal_error	tokens-lex.cc	/^static void yy_fatal_error (yyconst char* msg )$/
+yy_flex_debug	tokens-lex.cc	673
+yy_flex_strlen	tokens-lex.cc	/^static int yy_flex_strlen (yyconst char * s )$/
+yy_flex_strncpy	tokens-lex.cc	/^static void yy_flex_strncpy (char* s1, yyconst cha/
+yy_flush_buffer	tokens-lex.cc	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/
+yy_get_next_buffer	tokens-lex.cc	/^static int yy_get_next_buffer (void)$/
+yy_get_previous_state	tokens-lex.cc	/^    static yy_state_type yy_get_previous_state (vo/
+yy_hold_char	tokens-lex.cc	350
+yy_init	tokens-lex.cc	356
+yy_init_buffer	tokens-lex.cc	/^    static void yy_init_buffer  (YY_BUFFER_STATE  /
+yy_init_globals	tokens-lex.cc	/^static int yy_init_globals (void)$/
+yy_last_accepting_cpos	tokens-lex.cc	670
+yy_last_accepting_state	tokens-lex.cc	669
+yy_load_buffer_state	tokens-lex.cc	/^static void yy_load_buffer_state  (void)$/
+yy_meta	tokens-lex.cc	520
+yy_n_chars	tokens-lex.cc	351
+yy_new_buffer	tokens-lex.cc	391
+yy_nxt	tokens-lex.cc	583
+yy_rule_linenum	tokens-lex.cc	675
+yy_scan_buffer	tokens-lex.cc	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_s/
+yy_scan_bytes	tokens-lex.cc	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yyb/
+yy_scan_string	tokens-lex.cc	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yys/
+yy_set_bol	tokens-lex.cc	/^#define yy_set_bol(at_bol) \\$/
+yy_set_interactive	tokens-lex.cc	/^#define yy_set_interactive(is_interactive) \\$/
+yy_size_t	tokens-lex.cc	242
+yy_start	tokens-lex.cc	357
+yy_state_type	tokens-lex.cc	424
+yy_switch_to_buffer	tokens-lex.cc	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  ne/
+yy_trans_info	tokens-lex.cc	459
+yy_trans_info::yy_nxt	tokens-lex.cc	462
+yy_trans_info::yy_verify	tokens-lex.cc	461
+yy_try_NUL_trans	tokens-lex.cc	/^    static yy_state_type yy_try_NUL_trans  (yy_sta/
+yyalloc	cool.tab.c	461
+yyalloc	tokens-lex.cc	/^void *yyalloc (yy_size_t  size )$/
+yyalloc::yyls_alloc	cool.tab.c	465
+yyalloc::yyss_alloc	cool.tab.c	463
+yyalloc::yyvs_alloc	cool.tab.c	464
+yybottom	cool.tab.c	1073
+yychar	cool-parse.cc	71
+yycheck	cool.tab.c	801
+yyclearin	cool.tab.c	878
+yyconst	tokens-lex.cc	137
+yyconst	tokens-lex.cc	139
+yydebug	cool-parse.cc	72
+yydefact	cool.tab.c	684
+yydefgoto	cool.tab.c	706
+yyensure_buffer_stack	tokens-lex.cc	/^static void yyensure_buffer_stack (void)$/
+yyerrok	cool.tab.c	877
+yyerror	cool-parse.cc	69
+yyerror	cool.y	/^    void yyerror(char *s)$/
+yyfree	tokens-lex.cc	/^void yyfree (void * ptr )$/
+yyget_debug	tokens-lex.cc	/^int yyget_debug  (void)$/
+yyget_in	tokens-lex.cc	/^FILE *yyget_in  (void)$/
+yyget_leng	tokens-lex.cc	/^int yyget_leng  (void)$/
+yyget_lineno	tokens-lex.cc	/^int yyget_lineno  (void)$/
+yyget_out	tokens-lex.cc	/^FILE *yyget_out  (void)$/
+yyget_text	tokens-lex.cc	/^char *yyget_text  (void)$/
+yyin	tokens-lex.cc	422
+yyinput	tokens-lex.cc	/^    static int yyinput (void)$/
+yyleng	tokens-lex.cc	352
+yyless	tokens-lex.cc	/^#define yyless(n) \\$/
+yyless	tokens-lex.cc	2335
+yyless	tokens-lex.cc	/^#define yyless(n) \\$/
+yylex	cool-parse.cc	68
+yylex	tokens.flex	11
+yylex_destroy	tokens-lex.cc	/^int yylex_destroy  (void)$/
+yylineno	cool-tree.handcode.h	11
+yylineno	tokens-lex.cc	428
+yylloc	cool-parse.cc	74
+yylocationp	cool.tab.c	1008
+yylocationp	cool.tab.c	1042
+yyltype	cool.tab.h	143
+yyltype	cool.tab.c	289
+yylval	cool-parse.cc	70
+yylval	tokens.flex	10
+yymore	tokens-lex.cc	/^#define yymore() yymore_used_but_not_detected$/
+yynerrs	cool-parse.cc	73
+yypact	cool.tab.c	715
+yyparse	cool-parse.cc	67
+yypgoto	cool.tab.c	737
+yypop_buffer_state	tokens-lex.cc	/^void yypop_buffer_state (void)$/
+yyprhs	cool.tab.c	571
+yypush_buffer_state	tokens-lex.cc	/^void yypush_buffer_state (YY_BUFFER_STATE new_buff/
+yyr1	cool.tab.c	658
+yyr2	cool.tab.c	670
+yyrealloc	tokens-lex.cc	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/
+yyrestart	tokens-lex.cc	/^    void yyrestart  (FILE * input_file )$/
+yyrhs	cool.tab.c	583
+yyrline	cool.tab.c	616
+yyset_debug	tokens-lex.cc	/^void yyset_debug (int  bdebug )$/
+yyset_in	tokens-lex.cc	/^void yyset_in (FILE *  in_str )$/
+yyset_lineno	tokens-lex.cc	/^void yyset_lineno (int  line_number )$/
+yyset_out	tokens-lex.cc	/^void yyset_out (FILE *  out_str )$/
+yystos	cool.tab.c	856
+yystype	cool.tab.h	129
+yystype	cool.tab.c	277
+yytable	cool.tab.c	748
+yyterminate	tokens-lex.cc	/^#define yyterminate() return YY_NULL$/
+yytext	tokens-lex.cc	692
+yytext_ptr	tokens-lex.cc	431
+yytname	cool.tab.c	631
+yytokentype	cool.tab.h	41
+yytokentype	cool.tab.c	189
+yytokentype::ASSIGN	cool.tab.c	212
+yytokentype::BOOL_CONST	cool.tab.c	209
+yytokentype::CASE	cool.tab.c	201
+yytokentype::CLASS	cool.tab.c	190
+yytokentype::DARROW	cool.tab.c	204
+yytokentype::ELSE	cool.tab.c	191
+yytokentype::ERROR	cool.tab.c	215
+yytokentype::ESAC	cool.tab.c	202
+yytokentype::FI	cool.tab.c	192
+yytokentype::IF	cool.tab.c	193
+yytokentype::IN	cool.tab.c	194
+yytokentype::INHERITS	cool.tab.c	195
+yytokentype::INT_CONST	cool.tab.c	208
+yytokentype::ISVOID	cool.tab.c	206
+yytokentype::LE	cool.tab.c	214
+yytokentype::LET	cool.tab.c	196
+yytokentype::LOOP	cool.tab.c	197
+yytokentype::NEW	cool.tab.c	205
+yytokentype::NOT	cool.tab.c	213
+yytokentype::OBJECTID	cool.tab.c	211
+yytokentype::OF	cool.tab.c	203
+yytokentype::POOL	cool.tab.c	198
+yytokentype::STR_CONST	cool.tab.c	207
+yytokentype::THEN	cool.tab.c	199
+yytokentype::TYPEID	cool.tab.c	210
+yytokentype::WHILE	cool.tab.c	200
+yytoknum	cool.tab.c	647
+yytop	cool.tab.c	1069
+yytranslate	cool.tab.c	535
+yytype	cool.tab.c	1006
+yytype	cool.tab.c	1040
+yytype_int16	cool.tab.c	327
+yytype_int16	cool.tab.c	329
+yytype_int8	cool.tab.c	312
+yytype_int8	cool.tab.c	315
+yytype_int8	cool.tab.c	317
+yytype_uint16	cool.tab.c	321
+yytype_uint16	cool.tab.c	323
+yytype_uint8	cool.tab.c	306
+yytype_uint8	cool.tab.c	308
+yyunput	tokens-lex.cc	/^    static void yyunput (int c, register char * yy/
+yyvaluep	cool.tab.c	1007
+yyvaluep	cool.tab.c	1041
