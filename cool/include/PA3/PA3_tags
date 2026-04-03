@@ -1,0 +1,383 @@
+ASSIGN	cool-parse.h	138
+BOOL_CONST	cool-parse.h	135
+Boolean	cool.h	13
+Boolean	cool-parse.h	15
+CASE	cool-parse.h	127
+CLASS	cool-parse.h	116
+COOL_IO_H	cool-io.h	8
+COOL_TREE_H	cool-tree.h	2
+Case	cool-parse.h	34
+Case	cool-tree.h	88
+Case_class	cool-tree.h	90
+Case_class::Case_EXTRAS	cool-tree.h	96
+Case_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Case(); }$/
+Cases	cool-parse.h	44
+Cases	cool-tree.h	124
+Cases_class	cool-parse.h	43
+Cases_class	cool-tree.h	123
+Class_	cool-parse.h	30
+Class_	cool-tree.h	32
+Class__class	cool-tree.h	34
+Class__class::Class__EXTRAS	cool-tree.h	40
+Class__class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Class_(); }$/
+Classes	cool-parse.h	36
+Classes	cool-tree.h	104
+Classes_class	cool-parse.h	35
+Classes_class	cool-tree.h	103
+DARROW	cool-parse.h	130
+ELSE	cool-parse.h	117
+ERROR	cool-parse.h	141
+ESAC	cool-parse.h	128
+Entry	stringtab.h	29
+Entry::equal_index	stringtab.h	/^  bool equal_index(int ind) const           { retu/
+Entry::index	stringtab.h	33
+Entry::len	stringtab.h	32
+Entry::str	stringtab.h	31
+Expression	cool-parse.h	33
+Expression	cool-tree.h	74
+Expression_class	cool-tree.h	76
+Expression_class::Expression_EXTRAS	cool-tree.h	82
+Expression_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Expression();/
+Expressions	cool-parse.h	42
+Expressions	cool-tree.h	119
+Expressions_class	cool-parse.h	41
+Expressions_class	cool-tree.h	118
+FI	cool-parse.h	118
+Feature	cool-parse.h	31
+Feature	cool-tree.h	46
+Feature_class	cool-tree.h	48
+Feature_class::Feature_EXTRAS	cool-tree.h	54
+Feature_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Feature(); }$/
+Features	cool-parse.h	38
+Features	cool-tree.h	109
+Features_class	cool-parse.h	37
+Features_class	cool-tree.h	108
+Formal	cool-parse.h	32
+Formal	cool-tree.h	60
+Formal_class	cool-tree.h	62
+Formal_class::Formal_EXTRAS	cool-tree.h	68
+Formal_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Formal(); }$/
+Formals	cool-parse.h	40
+Formals	cool-tree.h	114
+Formals_class	cool-parse.h	39
+Formals_class	cool-tree.h	113
+GC_DEBUG	cgen_gc.h	15
+GC_GENGC	cgen_gc.h	11
+GC_NOGC	cgen_gc.h	11
+GC_NORMAL	cgen_gc.h	13
+GC_QUICK	cgen_gc.h	15
+GC_SNCGC	cgen_gc.h	11
+GC_TEST	cgen_gc.h	13
+IF	cool-parse.h	119
+IN	cool-parse.h	120
+INHERITS	cool-parse.h	121
+INT_CONST	cool-parse.h	134
+ISVOID	cool-parse.h	132
+IdEntry	stringtab.h	70
+IdEntryP	stringtab.h	83
+IdTable	stringtab.h	126
+IntEntry	stringtab.h	75
+IntEntryP	stringtab.h	84
+IntTable	stringtab.h	134
+LE	cool-parse.h	140
+LET	cool-parse.h	122
+LET_STMT	cool-parse.h	142
+LOOP	cool-parse.h	123
+List	list.h	26
+List::List	list.h	/^  List(T *h,List<T>* t = NULL): head(h), tail(t) {/
+List::hd	list.h	/^  T *hd() const       { return head; }  $/
+List::head	list.h	28
+List::tail	list.h	29
+List::tl	list.h	/^  List<T>* tl() const { return tail; }$/
+MAXSIZE	stringtab_functions.h	8
+Memmgr	cgen_gc.h	11
+Memmgr_Debug	cgen_gc.h	15
+Memmgr_Test	cgen_gc.h	13
+NEW	cool-parse.h	131
+NOT	cool-parse.h	139
+OBJECTID	cool-parse.h	137
+OF	cool-parse.h	129
+POOL	cool-parse.h	124
+Program	cool-parse.h	29
+Program	cool-tree.h	18
+Program_class	cool-tree.h	20
+Program_class::Program_EXTRAS	cool-tree.h	26
+Program_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Program(); }$/
+STR_CONST	cool-parse.h	133
+StrTable	stringtab.h	128
+StringEntry	stringtab.h	63
+StringEntryP	stringtab.h	82
+StringTable	stringtab.h	93
+StringTable::StringTable	stringtab.h	/^   StringTable(): tbl((List<Elem> *) NULL), index(/
+StringTable::index	stringtab.h	97
+StringTable::tbl	stringtab.h	96
+Symbol	cool.h	15
+Symbol	cool-parse.h	17
+Symbol	stringtab.h	18
+THEN	cool-parse.h	125
+TREE_H	tree.h	8
+TYPEID	cool-parse.h	136
+WHILE	cool-parse.h	126
+YYSTYPE	cool-parse.h	148
+YYSTYPE	cool.tab.h	129
+YYSTYPE::boolean	cool.y	34
+YYSTYPE::case_	cool.y	43
+YYSTYPE::cases	cool.y	44
+YYSTYPE::class_	cool.y	37
+YYSTYPE::classes	cool.y	38
+YYSTYPE::error_msg	cool.y	47
+YYSTYPE::expression	cool.y	45
+YYSTYPE::expressions	cool.y	46
+YYSTYPE::feature	cool.y	39
+YYSTYPE::features	cool.y	40
+YYSTYPE::formal	cool.y	41
+YYSTYPE::formals	cool.y	42
+YYSTYPE::program	cool.y	36
+YYSTYPE::symbol	cool.y	35
+YYSTYPE_IS_DECLARED	cool.tab.h	132
+YYSTYPE_IS_TRIVIAL	cool.tab.h	130
+YYTOKENTYPE	cool-parse.h	82
+_COOL_H_	cool.h	8
+_COOL_H_	cool-parse.h	10
+_COOL_PARSE_H	cool-parse.h	2
+_LIST_H_	list.h	20
+_STRINGTAB_H_	stringtab.h	10
+_UTILITIES_H_	utilities.h	9
+add_int	stringtab_functions.h	/^Elem *StringTable<Elem>::add_int(int i)$/
+add_string	stringtab_functions.h	/^Elem *StringTable<Elem>::add_string(char *s)$/
+add_string	stringtab_functions.h	/^Elem *StringTable<Elem>::add_string(char *s, int m/
+append	tree.h	/^template <class Elem> list_node<Elem> *list_node<E/
+append_node	tree.h	161
+append_node::append_node	tree.h	/^    append_node(list_node<Elem> *l1, list_node<Ele/
+append_node::rest	tree.h	163
+append_node::some	tree.h	163
+assign_class	cool-tree.h	271
+assign_class::assign_EXTRAS	cool-tree.h	287
+assign_class::assign_class	cool-tree.h	/^   assign_class(Symbol a1, Expression a2) {$/
+assign_class::expr	cool-tree.h	274
+assign_class::name	cool-tree.h	273
+attr_class	cool-tree.h	201
+attr_class::attr_EXTRAS	cool-tree.h	219
+attr_class::attr_class	cool-tree.h	/^   attr_class(Symbol a1, Symbol a2, Expression a3)/
+attr_class::init	cool-tree.h	205
+attr_class::name	cool-tree.h	203
+attr_class::type_decl	cool-tree.h	204
+block_class	cool-tree.h	411
+block_class::block_EXTRAS	cool-tree.h	425
+block_class::block_class	cool-tree.h	/^   block_class(Expressions a1) {$/
+block_class::body	cool-tree.h	413
+bool_const_class	cool-tree.h	671
+bool_const_class::bool_const_EXTRAS	cool-tree.h	685
+bool_const_class::bool_const_class	cool-tree.h	/^   bool_const_class(Boolean a1) {$/
+bool_const_class::val	cool-tree.h	673
+branch_class	cool-tree.h	247
+branch_class::branch_EXTRAS	cool-tree.h	265
+branch_class::branch_class	cool-tree.h	/^   branch_class(Symbol a1, Symbol a2, Expression a/
+branch_class::expr	cool-tree.h	251
+branch_class::name	cool-tree.h	249
+branch_class::type_decl	cool-tree.h	250
+class__class	cool-tree.h	149
+class__class::class__EXTRAS	cool-tree.h	169
+class__class::class__class	cool-tree.h	/^   class__class(Symbol a1, Symbol a2, Features a3,/
+class__class::features	cool-tree.h	153
+class__class::filename	cool-tree.h	154
+class__class::name	cool-tree.h	151
+class__class::parent	cool-tree.h	152
+comp_class	cool-tree.h	631
+comp_class::comp_EXTRAS	cool-tree.h	645
+comp_class::comp_class	cool-tree.h	/^   comp_class(Expression a1) {$/
+comp_class::e1	cool-tree.h	633
+cond_class	cool-tree.h	343
+cond_class::cond_EXTRAS	cool-tree.h	361
+cond_class::cond_class	cool-tree.h	/^   cond_class(Expression a1, Expression a2, Expres/
+cond_class::else_exp	cool-tree.h	347
+cond_class::pred	cool-tree.h	345
+cond_class::then_exp	cool-tree.h	346
+cons	tree.h	/^template <class Elem> append_node<Elem> *cons(Elem/
+copy_list	tree.h	/^template <class Elem> list_node<Elem> *nil_node<El/
+copy_list	tree.h	/^template <class Elem> list_node<Elem> *single_list/
+copy_list	tree.h	/^template <class Elem> list_node<Elem> *append_node/
+dispatch_class	cool-tree.h	319
+dispatch_class::actual	cool-tree.h	323
+dispatch_class::dispatch_EXTRAS	cool-tree.h	337
+dispatch_class::dispatch_class	cool-tree.h	/^   dispatch_class(Expression a1, Symbol a2, Expres/
+dispatch_class::expr	cool-tree.h	321
+dispatch_class::name	cool-tree.h	322
+divide_class	cool-tree.h	523
+divide_class::divide_EXTRAS	cool-tree.h	539
+divide_class::divide_class	cool-tree.h	/^   divide_class(Expression a1, Expression a2) {$/
+divide_class::e1	cool-tree.h	525
+divide_class::e2	cool-tree.h	526
+dump	tree.h	/^template <class Elem> void nil_node<Elem>::dump(os/
+dump	tree.h	/^template <class Elem> void single_list_node<Elem>:/
+dump	tree.h	/^template <class Elem> void append_node<Elem>::dump/
+eq_class	cool-tree.h	587
+eq_class::e1	cool-tree.h	589
+eq_class::e2	cool-tree.h	590
+eq_class::eq_EXTRAS	cool-tree.h	603
+eq_class::eq_class	cool-tree.h	/^   eq_class(Expression a1, Expression a2) {$/
+first	stringtab_functions.h	/^int StringTable<Elem>::first()$/
+formal_class	cool-tree.h	225
+formal_class::formal_EXTRAS	cool-tree.h	241
+formal_class::formal_class	cool-tree.h	/^   formal_class(Symbol a1, Symbol a2) {$/
+formal_class::name	cool-tree.h	227
+formal_class::type_decl	cool-tree.h	228
+int_const_class	cool-tree.h	651
+int_const_class::int_const_EXTRAS	cool-tree.h	665
+int_const_class::int_const_class	cool-tree.h	/^   int_const_class(Symbol a1) {$/
+int_const_class::token	cool-tree.h	653
+isvoid_class	cool-tree.h	731
+isvoid_class::e1	cool-tree.h	733
+isvoid_class::isvoid_EXTRAS	cool-tree.h	745
+isvoid_class::isvoid_class	cool-tree.h	/^   isvoid_class(Expression a1) {$/
+len	tree.h	/^template <class Elem> int nil_node<Elem>::len()$/
+len	tree.h	/^template <class Elem> int single_list_node<Elem>::/
+len	tree.h	/^template <class Elem> int append_node<Elem>::len()/
+leq_class	cool-tree.h	609
+leq_class::e1	cool-tree.h	611
+leq_class::e2	cool-tree.h	612
+leq_class::leq_EXTRAS	cool-tree.h	625
+leq_class::leq_class	cool-tree.h	/^   leq_class(Expression a1, Expression a2) {$/
+let_class	cool-tree.h	431
+let_class::body	cool-tree.h	436
+let_class::identifier	cool-tree.h	433
+let_class::init	cool-tree.h	435
+let_class::let_EXTRAS	cool-tree.h	451
+let_class::let_class	cool-tree.h	/^   let_class(Symbol a1, Symbol a2, Expression a3, /
+let_class::type_decl	cool-tree.h	434
+list	tree.h	/^template <class Elem> single_list_node<Elem> *list/
+list_length	list.h	/^int list_length(List<T> *l)$/
+list_map	list.h	/^void list_map(void f(T*), List<T> *l)$/
+list_node	tree.h	115
+list_node::copy	tree.h	/^    tree_node *copy()            { return copy_lis/
+list_node::first	tree.h	/^    int first()      { return 0; }$/
+list_node::more	tree.h	/^    int more(int n)  { return (n < len()); }$/
+list_node::next	tree.h	/^    int next(int n)  { return n + 1; }$/
+list_node::~list_node	tree.h	/^    virtual ~list_node() { }$/
+list_print	list.h	/^void list_print(S &str, List<T> *l)$/
+lookup	stringtab_functions.h	/^Elem *StringTable<Elem>::lookup(int ind)$/
+lookup_string	stringtab_functions.h	/^Elem *StringTable<Elem>::lookup_string(char *s)$/
+loop_class	cool-tree.h	367
+loop_class::body	cool-tree.h	370
+loop_class::loop_EXTRAS	cool-tree.h	383
+loop_class::loop_class	cool-tree.h	/^   loop_class(Expression a1, Expression a2) {$/
+loop_class::pred	cool-tree.h	369
+lt_class	cool-tree.h	565
+lt_class::e1	cool-tree.h	567
+lt_class::e2	cool-tree.h	568
+lt_class::lt_EXTRAS	cool-tree.h	581
+lt_class::lt_class	cool-tree.h	/^   lt_class(Expression a1, Expression a2) {$/
+method_class	cool-tree.h	175
+method_class::expr	cool-tree.h	180
+method_class::formals	cool-tree.h	178
+method_class::method_EXTRAS	cool-tree.h	195
+method_class::method_class	cool-tree.h	/^   method_class(Symbol a1, Formals a2, Symbol a3, /
+method_class::name	cool-tree.h	177
+method_class::return_type	cool-tree.h	179
+min	stringtab_functions.h	/^#define min(a,b) (a > b ? b : a)$/
+more	stringtab_functions.h	/^int StringTable<Elem>::more(int i)$/
+mul_class	cool-tree.h	501
+mul_class::e1	cool-tree.h	503
+mul_class::e2	cool-tree.h	504
+mul_class::mul_EXTRAS	cool-tree.h	517
+mul_class::mul_class	cool-tree.h	/^   mul_class(Expression a1, Expression a2) {$/
+neg_class	cool-tree.h	545
+neg_class::e1	cool-tree.h	547
+neg_class::neg_EXTRAS	cool-tree.h	559
+neg_class::neg_class	cool-tree.h	/^   neg_class(Expression a1) {$/
+new__class	cool-tree.h	711
+new__class::new__EXTRAS	cool-tree.h	725
+new__class::new__class	cool-tree.h	/^   new__class(Symbol a1) {$/
+new__class::type_name	cool-tree.h	713
+next	stringtab_functions.h	/^int StringTable<Elem>::next(int i)$/
+nil	tree.h	/^template <class Elem> list_node<Elem> *list_node<E/
+nil_node	tree.h	140
+no_expr_class	cool-tree.h	751
+no_expr_class::no_expr_EXTRAS	cool-tree.h	763
+no_expr_class::no_expr_class	cool-tree.h	/^   no_expr_class() {$/
+nth	tree.h	/^template <class Elem> Elem list_node<Elem>::nth(in/
+nth	tree.h	/^template <class Elem> Elem append_node<Elem>::nth(/
+nth_length	tree.h	/^template <class Elem> Elem nil_node<Elem>::nth_len/
+nth_length	tree.h	/^template <class Elem> Elem single_list_node<Elem>:/
+nth_length	tree.h	/^template <class Elem> Elem append_node<Elem>::nth_/
+object_class	cool-tree.h	769
+object_class::name	cool-tree.h	771
+object_class::object_EXTRAS	cool-tree.h	783
+object_class::object_class	cool-tree.h	/^   object_class(Symbol a1) {$/
+plus_class	cool-tree.h	457
+plus_class::e1	cool-tree.h	459
+plus_class::e2	cool-tree.h	460
+plus_class::plus_EXTRAS	cool-tree.h	473
+plus_class::plus_class	cool-tree.h	/^   plus_class(Expression a1, Expression a2) {$/
+print	stringtab_functions.h	/^void StringTable<Elem>::print()$/
+program_class	cool-tree.h	129
+program_class::classes	cool-tree.h	131
+program_class::program_EXTRAS	cool-tree.h	143
+program_class::program_class	cool-tree.h	/^   program_class(Classes a1) {$/
+single	tree.h	/^template <class Elem> list_node<Elem> *list_node<E/
+single_list_node	tree.h	148
+single_list_node::elem	tree.h	149
+single_list_node::single_list_node	tree.h	/^    single_list_node(Elem t) {$/
+static_dispatch_class	cool-tree.h	293
+static_dispatch_class::actual	cool-tree.h	298
+static_dispatch_class::expr	cool-tree.h	295
+static_dispatch_class::name	cool-tree.h	297
+static_dispatch_class::static_dispatch_EXTRAS	cool-tree.h	313
+static_dispatch_class::static_dispatch_class	cool-tree.h	/^   static_dispatch_class(Expression a1, Symbol a2,/
+static_dispatch_class::type_name	cool-tree.h	296
+std::cerr	cool-io.h	22
+std::cout	cool-io.h	21
+std::dec	cool-io.h	32
+std::endl	cool-io.h	23
+std::oct	cool-io.h	31
+std::ofstream	cool-io.h	27
+std::ostream	cool-io.h	20
+std::setfill	cool-io.h	34
+std::setw	cool-io.h	33
+string_const_class	cool-tree.h	691
+string_const_class::string_const_EXTRAS	cool-tree.h	705
+string_const_class::string_const_class	cool-tree.h	/^   string_const_class(Symbol a1) {$/
+string_const_class::token	cool-tree.h	693
+sub_class	cool-tree.h	479
+sub_class::e1	cool-tree.h	481
+sub_class::e2	cool-tree.h	482
+sub_class::sub_EXTRAS	cool-tree.h	495
+sub_class::sub_class	cool-tree.h	/^   sub_class(Expression a1, Expression a2) {$/
+tree_node	tree.h	52
+tree_node::line_number	tree.h	54
+tree_node::~tree_node	tree.h	/^    virtual ~tree_node() { }$/
+typcase_class	cool-tree.h	389
+typcase_class::cases	cool-tree.h	392
+typcase_class::expr	cool-tree.h	391
+typcase_class::typcase_EXTRAS	cool-tree.h	405
+typcase_class::typcase_class	cool-tree.h	/^   typcase_class(Expression a1, Cases a2) {$/
+xcons	tree.h	/^template <class Elem> append_node<Elem> *xcons(lis/
+yystype	cool.tab.h	131
+yytokentype	cool-parse.h	85
+yytokentype::ASSIGN	cool-parse.h	108
+yytokentype::BOOL_CONST	cool-parse.h	105
+yytokentype::CASE	cool-parse.h	97
+yytokentype::CLASS	cool-parse.h	86
+yytokentype::DARROW	cool-parse.h	100
+yytokentype::ELSE	cool-parse.h	87
+yytokentype::ERROR	cool-parse.h	111
+yytokentype::ESAC	cool-parse.h	98
+yytokentype::FI	cool-parse.h	88
+yytokentype::IF	cool-parse.h	89
+yytokentype::IN	cool-parse.h	90
+yytokentype::INHERITS	cool-parse.h	91
+yytokentype::INT_CONST	cool-parse.h	104
+yytokentype::ISVOID	cool-parse.h	102
+yytokentype::LE	cool-parse.h	110
+yytokentype::LET	cool-parse.h	92
+yytokentype::LET_STMT	cool-parse.h	112
+yytokentype::LOOP	cool-parse.h	93
+yytokentype::NEW	cool-parse.h	101
+yytokentype::NOT	cool-parse.h	109
+yytokentype::OBJECTID	cool-parse.h	107
+yytokentype::OF	cool-parse.h	99
+yytokentype::POOL	cool-parse.h	94
+yytokentype::STR_CONST	cool-parse.h	103
+yytokentype::THEN	cool-parse.h	95
+yytokentype::TYPEID	cool-parse.h	106
+yytokentype::WHILE	cool-parse.h	96
