@@ -1,0 +1,1136 @@
+A1	emit.h	69
+ACC	emit.h	68
+ADD	emit.h	92
+ADDI	emit.h	93
+ADDIU	emit.h	95
+ADDU	emit.h	94
+ALIGN	emit.h	61
+ASSIGN	ast.tab.c	170
+ATTR	ast.tab.c	167
+Attr	cool-tree.h	48
+BEGIN	ast-lex.cc	169
+BEQ	emit.h	102
+BEQZ	emit.h	100
+BGT	emit.h	106
+BLEQ	emit.h	104
+BLOCK	ast.tab.c	176
+BLT	emit.h	105
+BNE	emit.h	103
+BOOL	ast.tab.c	189
+BOOLCONST_PREFIX	emit.h	37
+BOOLNAME	emit.h	45
+BOOLTAG	emit.h	25
+BOOL_SLOTS	emit.h	58
+BRANCH	ast.tab.c	169
+BRANCH	emit.h	101
+Basic	cgen.h	8
+Basicness	cgen.h	8
+Bool	cgen.cc	68
+BoolConst	cgen.h	88
+BoolConst::BoolConst	cgen.cc	/^BoolConst::BoolConst(int i) : val(i) { assert(i ==/
+BoolConst::code_def	cgen.cc	/^void BoolConst::code_def(ostream& s, int boolclass/
+BoolConst::code_ref	cgen.cc	/^void BoolConst::code_ref(ostream& s) const$/
+BoolConst::val	cgen.h	91
+CLASS	ast.tab.c	165
+CLASSINIT_SUFFIX	emit.h	32
+CLASSNAMETAB	emit.h	22
+CLASSOBJTAB	emit.h	23
+CLASS_PARENT_TAB	cgen.cc	41
+COMP	ast.tab.c	186
+COND	ast.tab.c	173
+COOL_TREE_H	cool-tree.h	2
+COOL_TREE_HANDCODE_H	cool-tree.handcode.h	5
+Case	cool-tree.handcode.h	34
+Case	cool-tree.h	96
+Case_EXTRAS	cool-tree.handcode.h	87
+Case_class	cool-tree.h	98
+Case_class::Case_EXTRAS	cool-tree.h	105
+Case_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Case(); }$/
+Case_class::get_case	cool-tree.h	/^   virtual branch_class* get_case(){ return NULL;}/
+Cases	cool-tree.handcode.h	45
+Cases	cool-tree.h	133
+Cases_class	cool-tree.handcode.h	44
+Cases_class	cool-tree.h	132
+CgenClassTable	cgen.h	18
+CgenClassTable::CgenClassTable	cgen.cc	/^CgenClassTable::CgenClassTable(Classes classes, os/
+CgenClassTable::boolclasstag	cgen.h	24
+CgenClassTable::build_inheritance_tree	cgen.cc	/^void CgenClassTable::build_inheritance_tree()$/
+CgenClassTable::code	cgen.cc	/^void CgenClassTable::code()$/
+CgenClassTable::code_bools	cgen.cc	/^void CgenClassTable::code_bools(int boolclasstag)$/
+CgenClassTable::code_classInits	cgen.cc	/^void CgenClassTable::code_classInits(ostream& s){$/
+CgenClassTable::code_classMethods	cgen.cc	/^void CgenClassTable::code_classMethods(ostream& st/
+CgenClassTable::code_constants	cgen.cc	/^void CgenClassTable::code_constants()$/
+CgenClassTable::code_dispatchTab	cgen.cc	/^void CgenClassTable::code_dispatchTab(ostream &s){/
+CgenClassTable::code_global_data	cgen.cc	/^void CgenClassTable::code_global_data()$/
+CgenClassTable::code_global_text	cgen.cc	/^void CgenClassTable::code_global_text()$/
+CgenClassTable::code_nameTab	cgen.cc	/^void CgenClassTable::code_nameTab(ostream &s){$/
+CgenClassTable::code_objTab	cgen.cc	/^void CgenClassTable::code_objTab(ostream& s){$/
+CgenClassTable::code_parentTab	cgen.cc	/^void CgenClassTable::code_parentTab(ostream& s){$/
+CgenClassTable::code_prototypeObjs	cgen.cc	/^void CgenClassTable::code_prototypeObjs(ostream& s/
+CgenClassTable::code_select_gc	cgen.cc	/^void CgenClassTable::code_select_gc()$/
+CgenClassTable::install_basic_classes	cgen.cc	/^void CgenClassTable::install_basic_classes()$/
+CgenClassTable::install_class	cgen.cc	/^void CgenClassTable::install_class(CgenNodeP nd)$/
+CgenClassTable::install_classes	cgen.cc	/^void CgenClassTable::install_classes(Classes cs)$/
+CgenClassTable::intclasstag	cgen.h	23
+CgenClassTable::nds	cgen.h	20
+CgenClassTable::root	cgen.cc	/^CgenNodeP CgenClassTable::root()$/
+CgenClassTable::set_relations	cgen.cc	/^void CgenClassTable::set_relations(CgenNodeP nd)$/
+CgenClassTable::str	cgen.h	21
+CgenClassTable::stringclasstag	cgen.h	22
+CgenClassTableP	cgen.h	13
+CgenNode	cgen.h	61
+CgenNode::CgenNode	cgen.cc	/^CgenNode::CgenNode(Class_ nd, Basicness bstatus, C/
+CgenNode::add_child	cgen.cc	/^void CgenNode::add_child(CgenNodeP n)$/
+CgenNode::basic	cgen.h	/^   int basic() { return (basic_status == Basic); }/
+CgenNode::basic_status	cgen.h	65
+CgenNode::children	cgen.h	64
+CgenNode::classInit	cgen.cc	/^void CgenNode::classInit(ostream& s){$/
+CgenNode::code_method	cgen.cc	/^void CgenNode::code_method(method_class* method, o/
+CgenNode::dispatch_def	cgen.cc	/^void CgenNode::dispatch_def(ostream& s){$/
+CgenNode::getAttrIndex	cgen.cc	/^int CgenNode::getAttrIndex(Symbol name){$/
+CgenNode::getClassAttrs	cgen.cc	/^std::vector<Attr>* CgenNode::getClassAttrs(){$/
+CgenNode::getMethods	cgen.cc	/^std::vector<method_class*>* CgenNode::getMethods()/
+CgenNode::get_children	cgen.h	/^   List<CgenNode> *get_children() { return childre/
+CgenNode::get_parentnd	cgen.h	/^   CgenNodeP get_parentnd() { return parentnd; }$/
+CgenNode::parentnd	cgen.h	63
+CgenNode::prototype	cgen.cc	/^void CgenNode::prototype(ostream& s){$/
+CgenNode::set_parentnd	cgen.cc	/^void CgenNode::set_parentnd(CgenNodeP p)$/
+CgenNodeP	cgen.h	16
+Class_	cool-tree.handcode.h	26
+Class_	cool-tree.h	33
+Class__EXTRAS	cool-tree.handcode.h	57
+Class__class	cool-tree.h	35
+Class__class::Class__EXTRAS	cool-tree.h	41
+Class__class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Class_(); }$/
+Classes	cool-tree.handcode.h	37
+Classes	cool-tree.h	113
+Classes_class	cool-tree.handcode.h	36
+Classes_class	cool-tree.h	112
+DEFAULT_OBJFIELDS	emit.h	51
+DISPATCH	ast.tab.c	172
+DISPTABLE_OFFSET	emit.h	54
+DISPTAB_SUFFIX	emit.h	30
+DIV	emit.h	96
+DIVIDE	ast.tab.c	181
+ECHO	ast-lex.cc	814
+EMPTYSLOT	emit.h	40
+EOB_ACT_CONTINUE_SCAN	ast-lex.cc	218
+EOB_ACT_END_OF_FILE	ast-lex.cc	219
+EOB_ACT_LAST_MATCH	ast-lex.cc	220
+EQ	ast.tab.c	184
+Entry::Entry	stringtab.cc	/^Entry::Entry(char *s, int l, int i) : len(l), inde/
+Entry::equal_string	stringtab.cc	/^int Entry::equal_string(char *string, int length) /
+Entry::get_len	stringtab.cc	/^int Entry::get_len() const$/
+Entry::get_string	stringtab.cc	/^char *Entry::get_string() const$/
+Entry::print	stringtab.cc	/^ostream& Entry::print(ostream& s) const$/
+Environment	cgen.h	97
+Environment::Environment	cgen.h	/^	Environment(CgenNode* classPtr):classPtr(classPtr/
+Environment::add_param	cgen.h	/^	void add_param(Symbol name, int i){$/
+Environment::classPtr	cgen.h	101
+Environment::enterscope	cgen.h	/^	void enterscope(){$/
+Environment::exitscope	cgen.h	/^	void exitscope(){$/
+Environment::find_attr	cgen.h	/^	int find_attr(Symbol name){$/
+Environment::find_param	cgen.h	/^	int find_param(Symbol name){$/
+Environment::get_classname	cgen.h	/^	Symbol get_classname(){ return classPtr->name;}$/
+Environment::paramlist	cgen.h	103
+Environment::sp_fp	cgen.h	111
+Environment::std::vector	cgen.h	103
+Expression	cool-tree.handcode.h	32
+Expression	cool-tree.h	81
+Expression_EXTRAS	cool-tree.handcode.h	95
+Expression_SHARED_EXTRAS	cool-tree.handcode.h	104
+Expression_class	cool-tree.h	83
+Expression_class::Expression_EXTRAS	cool-tree.h	90
+Expression_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Expression();/
+Expression_class::dump_type	dumptype.cc	/^void Expression_class::dump_type(ostream& stream, /
+Expression_class::is_nil	cool-tree.h	/^   virtual bool is_nil(){return false;}$/
+Expressions	cool-tree.handcode.h	43
+Expressions	cool-tree.h	128
+Expressions_class	cool-tree.handcode.h	42
+Expressions_class	cool-tree.h	127
+FALSE	cgen.h	10
+FLEXINT_H	ast-lex.cc	55
+FLEX_BETA	ast-lex.cc	23
+FLEX_DEBUG	ast-lex.cc	418
+FLEX_SCANNER	ast-lex.cc	18
+FORMAL	ast.tab.c	168
+FP	emit.h	75
+Feature	cool-tree.handcode.h	28
+Feature	cool-tree.h	47
+Feature_EXTRAS	cool-tree.handcode.h	71
+Feature_SHARED_EXTRAS	cool-tree.handcode.h	75
+Feature_class	cool-tree.h	50
+Feature_class::Feature_EXTRAS	cool-tree.h	60
+Feature_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Feature(); }$/
+Feature_class::getMethod	cool-tree.h	/^   virtual class method_class* getMethod() { retur/
+Features	cool-tree.handcode.h	39
+Features	cool-tree.h	118
+Features_class	cool-tree.handcode.h	38
+Features_class	cool-tree.h	117
+Formal	cool-tree.handcode.h	30
+Formal	cool-tree.h	66
+Formal_EXTRAS	cool-tree.handcode.h	79
+Formal_class	cool-tree.h	68
+Formal_class::Formal_EXTRAS	cool-tree.h	75
+Formal_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Formal(); }$/
+Formals	cool-tree.handcode.h	41
+Formals	cool-tree.h	123
+Formals_class	cool-tree.handcode.h	40
+Formals_class	cool-tree.h	122
+GLOBAL	emit.h	60
+HEAP_START	emit.h	27
+ID	ast.tab.c	197
+INITIAL	ast-lex.cc	690
+INT	ast.tab.c	187
+INT16_MAX	ast-lex.cc	97
+INT16_MIN	ast-lex.cc	88
+INT32_MAX	ast-lex.cc	100
+INT32_MIN	ast-lex.cc	91
+INT8_MAX	ast-lex.cc	94
+INT8_MIN	ast-lex.cc	85
+INTCONST_PREFIX	emit.h	35
+INTNAME	emit.h	44
+INTTAG	emit.h	24
+INT_CONST	ast.tab.c	196
+INT_SLOTS	emit.h	57
+IO	cgen.cc	75
+ISVOID	ast.tab.c	191
+IdEntry::IdEntry	stringtab.cc	/^IdEntry::IdEntry(char *s, int l, int i) : Entry(s,/
+Int	cgen.cc	72
+IntEntry::IntEntry	stringtab.cc	/^IntEntry::IntEntry(char *s, int l, int i) : Entry(/
+IntEntry::code_def	cgen.cc	/^void IntEntry::code_def(ostream &s, int intclassta/
+IntEntry::code_ref	cgen.cc	/^void IntEntry::code_ref(ostream &s)$/
+IntTable::code_string_table	cgen.cc	/^void IntTable::code_string_table(ostream &s, int i/
+JAL	emit.h	82
+JALR	emit.h	81
+LA	emit.h	88
+LABEL	emit.h	41
+LEQ	ast.tab.c	185
+LET	ast.tab.c	177
+LI	emit.h	87
+LINENO	ast.tab.c	198
+LOG_WORD_SIZE	emit.h	19
+LOOP	ast.tab.c	174
+LT	ast.tab.c	183
+LW	emit.h	86
+MAINNAME	emit.h	46
+MAXINT	emit.h	17
+MAX_STR_CONST	ast.flex	14
+METHOD	ast.tab.c	166
+METHOD_SEP	emit.h	31
+MOVE	emit.h	90
+MUL	ast.tab.c	180
+MUL	emit.h	97
+Main	cgen.cc	77
+Mcgen-phase.cc	cgen-phase.cc	/^int main(int argc, char *argv[]) {$/
+NEG	ast.tab.c	182
+NEG	emit.h	91
+NEW	ast.tab.c	190
+NO_CLASS_TAG	cgen.cc	42
+NO_EXPR	ast.tab.c	192
+NO_TYPE	ast.tab.c	194
+No_class	cgen.cc	79
+No_type	cgen.cc	80
+NotBasic	cgen.h	8
+OBJECT	ast.tab.c	193
+OBJECTPROTOBJ	emit.h	34
+Object	cgen.cc	81
+PLUS	ast.tab.c	178
+PROGRAM	ast.tab.c	164
+PROTOBJ_SUFFIX	emit.h	33
+Program	cool-tree.handcode.h	24
+Program	cool-tree.h	19
+Program_EXTRAS	cool-tree.handcode.h	47
+Program_class	cool-tree.h	21
+Program_class::Program_EXTRAS	cool-tree.h	27
+Program_class::copy	cool-tree.h	/^   tree_node *copy()		 { return copy_Program(); }$/
+RA	emit.h	76
+REJECT	ast-lex.cc	644
+RET	emit.h	83
+SELF	emit.h	70
+SELF_TYPE	cgen.cc	86
+SIZE_OFFSET	emit.h	53
+SLL	emit.h	99
+SP	emit.h	74
+STATIC_DISPATCH	ast.tab.c	171
+STR	ast.tab.c	188
+STRCONST_PREFIX	emit.h	36
+STRING	ast-lex.cc	691
+STRINGNAME	emit.h	43
+STRINGTAG	emit.h	26
+STRING_SLOTS	emit.h	56
+STR_CONST	ast.tab.c	195
+SUB	ast.tab.c	179
+SUB	emit.h	98
+SW	emit.h	85
+Str	cgen.cc	87
+StrTable::code_string_table	cgen.cc	/^void StrTable::code_string_table(ostream& s, int s/
+StringEntry::StringEntry	stringtab.cc	/^StringEntry::StringEntry(char *s, int l, int i) : /
+StringEntry::code_def	cgen.cc	/^void StringEntry::code_def(ostream& s, int stringc/
+StringEntry::code_ref	cgen.cc	/^void StringEntry::code_ref(ostream& s)$/
+T1	emit.h	71
+T2	emit.h	72
+T3	emit.h	73
+TAG_OFFSET	emit.h	52
+TRUE	cgen.h	9
+TYPCASE	ast.tab.c	175
+UINT16_MAX	ast-lex.cc	106
+UINT32_MAX	ast-lex.cc	109
+UINT8_MAX	ast-lex.cc	103
+WORD	emit.h	62
+WORD_SIZE	emit.h	18
+YYABORT	ast.tab.c	727
+YYACCEPT	ast.tab.c	726
+YYBACKUP	ast.tab.c	/^#define YYBACKUP(Token, Value)					\\$/
+YYBISON	ast-parse.cc	46
+YYBISON_VERSION	ast-parse.cc	49
+YYCOPY	ast.tab.c	/^#   define YYCOPY(To, From, Count) \\$/
+YYCOPY	ast.tab.c	/^#   define YYCOPY(To, From, Count)		\\$/
+YYDEBUG	ast.tab.c	103
+YYDPRINTF	ast.tab.c	/^# define YYDPRINTF(Args)			\\$/
+YYEMPTY	ast.tab.c	723
+YYEOF	ast.tab.c	724
+YYERRCODE	ast.tab.c	758
+YYERROR	ast.tab.c	728
+YYERROR_VERBOSE	ast.tab.c	108
+YYERROR_VERBOSE	ast.tab.c	109
+YYERROR_VERBOSE	ast.tab.c	111
+YYFAIL	ast.tab.c	735
+YYFINAL	ast.tab.c	453
+YYFPRINTF	ast.tab.c	816
+YYFREE	ast.tab.c	386
+YYID	ast.tab.c	/^# define YYID(n) (n)$/
+YYLAST	ast.tab.c	455
+YYLEX	ast.tab.c	806
+YYLEX	ast.tab.c	808
+YYLLOC_DEFAULT	ast.tab.c	/^# define YYLLOC_DEFAULT(Current, Rhs, N)				\\$/
+YYLSP_NEEDED	ast-parse.cc	64
+YYMALLOC	ast.tab.c	379
+YYMAXUTOK	ast.tab.c	468
+YYNNTS	ast.tab.c	460
+YYNRULES	ast.tab.c	462
+YYNSTATES	ast.tab.c	464
+YYNTOKENS	ast.tab.c	458
+YYPACT_NINF	ast.tab.c	640
+YYPULL	ast-parse.cc	61
+YYPURE	ast-parse.cc	55
+YYPUSH	ast-parse.cc	58
+YYRECOVERING	ast.tab.c	/^#define YYRECOVERING()  (!!yyerrstatus)$/
+YYRHSLOC	ast.tab.c	/^#define YYRHSLOC(Rhs, K) ((Rhs)[K])$/
+YYSIZE_MAXIMUM	ast.tab.c	287
+YYSIZE_T	ast.tab.c	275
+YYSIZE_T	ast.tab.c	277
+YYSIZE_T	ast.tab.c	281
+YYSIZE_T	ast.tab.c	283
+YYSKELETON_NAME	ast-parse.cc	52
+YYSTACK_ALLOC	ast.tab.c	333
+YYSTACK_ALLOC	ast.tab.c	337
+YYSTACK_ALLOC	ast.tab.c	342
+YYSTACK_ALLOC	ast.tab.c	365
+YYSTACK_ALLOC_MAXIMUM	ast.tab.c	362
+YYSTACK_ALLOC_MAXIMUM	ast.tab.c	368
+YYSTACK_BYTES	ast.tab.c	/^# define YYSTACK_BYTES(N) \\$/
+YYSTACK_FREE	ast.tab.c	/^#  define YYSTACK_FREE(Ptr) do { \/* empty *\/; } wh/
+YYSTACK_FREE	ast.tab.c	366
+YYSTACK_GAP_MAXIMUM	ast.tab.c	408
+YYSTACK_RELOCATE	ast.tab.c	/^# define YYSTACK_RELOCATE(Stack_alloc, Stack)				\\/
+YYSTATE	ast-lex.cc	176
+YYSTYPE	ast.tab.c	204
+YYSTYPE	ast.tab.c	229
+YYSTYPE::boolean	ast.y	27
+YYSTYPE::case_	ast.y	36
+YYSTYPE::cases	ast.y	37
+YYSTYPE::class_	ast.y	30
+YYSTYPE::classes	ast.y	31
+YYSTYPE::expression	ast.y	38
+YYSTYPE::expressions	ast.y	39
+YYSTYPE::feature	ast.y	32
+YYSTYPE::features	ast.y	33
+YYSTYPE::formal	ast.y	34
+YYSTYPE::formals	ast.y	35
+YYSTYPE::lineno	ast.y	26
+YYSTYPE::program	ast.y	29
+YYSTYPE::symbol	ast.y	28
+YYSTYPE_IS_DECLARED	ast.tab.c	232
+YYSTYPE_IS_TRIVIAL	ast.tab.c	230
+YYTABLES_NAME	ast-lex.cc	2442
+YYTABLE_NINF	ast.tab.c	669
+YYTERROR	ast.tab.c	757
+YYTOKENTYPE	ast.tab.c	122
+YYTOKEN_TABLE	ast.tab.c	116
+YYTRANSLATE	ast.tab.c	/^#define YYTRANSLATE(YYX)						\\$/
+YYUNDEFTOK	ast.tab.c	467
+YYUSE	ast.tab.c	/^# define YYUSE(e) ((void) (e))$/
+YYUSE	ast.tab.c	/^# define YYUSE(e) \/* empty *\/$/
+YY_	ast.tab.c	/^#   define YY_(msgid) dgettext ("bison-runtime", m/
+YY_	ast.tab.c	/^#  define YY_(msgid) msgid$/
+YY_AT_BOL	ast-lex.cc	/^#define YY_AT_BOL() (YY_CURRENT_BUFFER_LVALUE->yy_/
+YY_BREAK	ast-lex.cc	918
+YY_BUFFER_EOF_PENDING	ast-lex.cc	310
+YY_BUFFER_NEW	ast-lex.cc	298
+YY_BUFFER_NORMAL	ast-lex.cc	299
+YY_BUFFER_STATE	ast-lex.cc	205
+YY_BUF_SIZE	ast-lex.cc	193
+YY_BUF_SIZE	ast-lex.cc	195
+YY_CHAR	ast-lex.cc	420
+YY_CURRENT_BUFFER	ast-lex.cc	335
+YY_CURRENT_BUFFER_LVALUE	ast-lex.cc	342
+YY_DECL	ast-lex.cc	903
+YY_DECL_IS_OURS	ast-lex.cc	898
+YY_DO_BEFORE_ACTION	ast-lex.cc	445
+YY_END_OF_BUFFER	ast-lex.cc	456
+YY_END_OF_BUFFER_CHAR	ast-lex.cc	184
+YY_EXIT_FAILURE	ast-lex.cc	2214
+YY_EXTRA_TYPE	ast-lex.cc	706
+YY_FATAL_ERROR	ast-lex.cc	/^#define YY_FATAL_ERROR(msg) yy_fatal_error( msg )$/
+YY_FLEX_MAJOR_VERSION	ast-lex.cc	19
+YY_FLEX_MINOR_VERSION	ast-lex.cc	20
+YY_FLEX_SUBMINOR_VERSION	ast-lex.cc	21
+YY_FLUSH_BUFFER	ast-lex.cc	379
+YY_INPUT	ast.flex	24
+YY_INPUT	ast.flex	/^#define YY_INPUT(buf,result,max_size) \\$/
+YY_INPUT	ast-lex.cc	/^#define YY_INPUT(buf,result,max_size) \\$/
+YY_INT_ALIGNED	ast-lex.cc	5
+YY_LESS_LINENO	ast-lex.cc	/^    #define YY_LESS_LINENO(n)$/
+YY_LOCATION_PRINT	ast.tab.c	/^#  define YY_LOCATION_PRINT(File, Loc)			\\$/
+YY_LOCATION_PRINT	ast.tab.c	/^#  define YY_LOCATION_PRINT(File, Loc) ((void) 0)$/
+YY_MORE_ADJ	ast-lex.cc	646
+YY_NEW_FILE	ast-lex.cc	182
+YY_NO_UNPUT	ast.flex	15
+YY_NULL	ast-lex.cc	145
+YY_NUM_RULES	ast-lex.cc	455
+YY_READ_BUF_SIZE	ast-lex.cc	802
+YY_READ_BUF_SIZE	ast-lex.cc	804
+YY_RESTORE_YY_MORE_OFFSET	ast-lex.cc	647
+YY_RULE_SETUP	ast-lex.cc	922
+YY_SC_TO_UI	ast-lex.cc	/^#define YY_SC_TO_UI(c) ((unsigned int) (unsigned c/
+YY_START	ast-lex.cc	175
+YY_START_STACK_INCR	ast-lex.cc	869
+YY_STATE_BUF_SIZE	ast-lex.cc	201
+YY_STATE_EOF	ast-lex.cc	/^#define YY_STATE_EOF(state) (YY_END_OF_BUFFER + st/
+YY_STRUCT_YY_BUFFER_STATE	ast-lex.cc	246
+YY_SYMBOL_PRINT	ast.tab.c	/^# define YY_SYMBOL_PRINT(Title, Type, Value, Locat/
+YY_TYPEDEF_YY_BUFFER_STATE	ast-lex.cc	204
+YY_TYPEDEF_YY_SIZE_T	ast-lex.cc	241
+YY_USER_ACTION	ast-lex.cc	913
+YY_USE_CONST	ast-lex.cc	124
+YY_USE_CONST	ast-lex.cc	131
+ZERO	emit.h	67
+_STDLIB_H	ast.tab.c	347
+_STDLIB_H	ast.tab.c	375
+__STDC_LIMIT_MACROS	ast-lex.cc	65
+alloca	ast.tab.c	340
+append_Cases	cool-tree.cc	/^Cases append_Cases(Cases p1, Cases p2)$/
+append_Classes	cool-tree.cc	/^Classes append_Classes(Classes p1, Classes p2)$/
+append_Expressions	cool-tree.cc	/^Expressions append_Expressions(Expressions p1, Exp/
+append_Features	cool-tree.cc	/^Features append_Features(Features p1, Features p2)/
+append_Formals	cool-tree.cc	/^Formals append_Formals(Formals p1, Formals p2)$/
+arg	cgen.cc	66
+arg2	cgen.cc	67
+ascii	cgen_supp.cc	6
+ascii_mode	cgen_supp.cc	/^void ascii_mode(ostream& str)$/
+assert_Boolean	cool-tree.handcode.h	/^inline void assert_Boolean(Boolean) {}$/
+assign	cool-tree.cc	/^Expression assign(Symbol name, Expression expr)$/
+assign_class	cool-tree.h	289
+assign_class::assign_EXTRAS	cool-tree.h	305
+assign_class::assign_class	cool-tree.h	/^   assign_class(Symbol a1, Expression a2) {$/
+assign_class::code	cgen.cc	/^void assign_class::code(ostream &s, Environment en/
+assign_class::copy_Expression	cool-tree.cc	/^Expression assign_class::copy_Expression()$/
+assign_class::dump	cool-tree.cc	/^void assign_class::dump(ostream& stream, int n)$/
+assign_class::dump_with_types	dumptype.cc	/^void assign_class::dump_with_types(ostream& stream/
+assign_class::expr	cool-tree.h	292
+assign_class::name	cool-tree.h	291
+ast_file	cgen-phase.cc	11
+ast_root	ast.y	19
+ast_yyerror	ast.y	/^void ast_yyerror(char *)$/
+attr	cool-tree.cc	/^Feature attr(Symbol name, Symbol type_decl, Expres/
+attr_class	cool-tree.h	213
+attr_class::attr_EXTRAS	cool-tree.h	235
+attr_class::attr_class	cool-tree.h	/^   attr_class(Symbol a1, Symbol a2, Expression a3)/
+attr_class::copy_Feature	cool-tree.cc	/^Feature attr_class::copy_Feature()$/
+attr_class::dump	cool-tree.cc	/^void attr_class::dump(ostream& stream, int n)$/
+attr_class::dump_with_types	dumptype.cc	/^void attr_class::dump_with_types(ostream& stream, /
+attr_class::getMethod	cool-tree.h	/^   method_class* getMethod() { return NULL;}$/
+attr_class::get_attr	cool-tree.h	/^   Attr get_attr() { return this; }$/
+attr_class::get_name	cool-tree.h	/^   Symbol get_name(){return name;}$/
+attr_class::init	cool-tree.h	217
+attr_class::is_method	cool-tree.h	/^   bool is_method(){return false;}$/
+attr_class::name	cool-tree.h	215
+attr_class::type_decl	cool-tree.h	216
+block	cool-tree.cc	/^Expression block(Expressions body)$/
+block_class	cool-tree.h	429
+block_class::block_EXTRAS	cool-tree.h	443
+block_class::block_class	cool-tree.h	/^   block_class(Expressions a1) {$/
+block_class::body	cool-tree.h	431
+block_class::code	cgen.cc	/^void block_class::code(ostream &s, Environment env/
+block_class::copy_Expression	cool-tree.cc	/^Expression block_class::copy_Expression()$/
+block_class::dump	cool-tree.cc	/^void block_class::dump(ostream& stream, int n)$/
+block_class::dump_with_types	dumptype.cc	/^void block_class::dump_with_types(ostream& stream,/
+bool_const	cool-tree.cc	/^Expression bool_const(Boolean val)$/
+bool_const_class	cool-tree.h	689
+bool_const_class::bool_const_EXTRAS	cool-tree.h	703
+bool_const_class::bool_const_class	cool-tree.h	/^   bool_const_class(Boolean a1) {$/
+bool_const_class::code	cgen.cc	/^void bool_const_class::code(ostream& s, Environmen/
+bool_const_class::copy_Expression	cool-tree.cc	/^Expression bool_const_class::copy_Expression()$/
+bool_const_class::dump	cool-tree.cc	/^void bool_const_class::dump(ostream& stream, int n/
+bool_const_class::dump_with_types	dumptype.cc	/^void bool_const_class::dump_with_types(ostream& st/
+bool_const_class::val	cool-tree.h	691
+branch	cool-tree.cc	/^Case branch(Symbol name, Symbol type_decl, Express/
+branch_EXTRAS	cool-tree.handcode.h	91
+branch_class	cool-tree.h	264
+branch_class::branch_EXTRAS	cool-tree.h	283
+branch_class::branch_class	cool-tree.h	/^   branch_class(Symbol a1, Symbol a2, Expression a/
+branch_class::copy_Case	cool-tree.cc	/^Case branch_class::copy_Case()$/
+branch_class::dump	cool-tree.cc	/^void branch_class::dump(ostream& stream, int n)$/
+branch_class::dump_with_types	dumptype.cc	/^void branch_class::dump_with_types(ostream& stream/
+branch_class::expr	cool-tree.h	268
+branch_class::get_case	cool-tree.h	/^   class branch_class* get_case(){ return this;}$/
+branch_class::name	cool-tree.h	266
+branch_class::type_decl	cool-tree.h	267
+break	ast.y	132
+break	ast.y	135
+break	ast.y	138
+break	ast.y	141
+break	ast.y	144
+break	ast.y	147
+break	ast.y	150
+break	ast.y	153
+break	ast.y	156
+break	ast.y	159
+break	ast.y	162
+break	ast.y	165
+break	ast.y	168
+break	ast.y	171
+break	ast.y	174
+break	ast.y	177
+break	ast.y	180
+break	ast.y	183
+break	ast.y	186
+break	ast.y	189
+break	ast.y	192
+break	ast.y	195
+break	ast.y	198
+break	ast.y	206
+break	ast.y	209
+break	ast.y	212
+break	ast.y	216
+break	ast.y	218
+break	ast.y	223
+break	ast.y	225
+break	ast.y	230
+break	ast.y	232
+break	ast.y	237
+break	ast.tab.c	1885
+byte_mode	cgen_supp.cc	/^void byte_mode(ostream& str)$/
+case	ast.y	137
+case	ast.y	140
+case	ast.y	143
+case	ast.y	146
+case	ast.y	149
+case	ast.y	152
+case	ast.y	155
+case	ast.y	158
+case	ast.y	161
+case	ast.y	164
+case	ast.y	167
+case	ast.y	170
+case	ast.y	173
+case	ast.y	176
+case	ast.y	179
+case	ast.y	182
+case	ast.y	185
+case	ast.y	188
+case	ast.y	191
+case	ast.y	194
+case	ast.y	197
+case	ast.y	200
+case	ast.y	208
+case	ast.y	211
+case	ast.y	234
+cgen_Memmgr	handle_flags.cc	34
+cgen_Memmgr_Debug	handle_flags.cc	36
+cgen_Memmgr_Test	handle_flags.cc	35
+cgen_debug	handle_flags.cc	29
+cgen_optimize	handle_flags.cc	32
+classMap	cgen.cc	38
+classNameTagMap	cgen.cc	36
+classTagNameMap	cgen.cc	37
+class_	cool-tree.cc	/^Class_ class_(Symbol name, Symbol parent, Features/
+class__EXTRAS	cool-tree.handcode.h	64
+class__class	cool-tree.h	158
+class__class::class__EXTRAS	cool-tree.h	178
+class__class::class__class	cool-tree.h	/^   class__class(Symbol a1, Symbol a2, Features a3,/
+class__class::copy_Class_	cool-tree.cc	/^Class_ class__class::copy_Class_()$/
+class__class::dump	cool-tree.cc	/^void class__class::dump(ostream& stream, int n)$/
+class__class::dump_with_types	dumptype.cc	/^void class__class::dump_with_types(ostream& stream/
+class__class::features	cool-tree.h	162
+class__class::filename	cool-tree.h	163
+class__class::name	cool-tree.h	160
+class__class::parent	cool-tree.h	161
+class_dispatch_ref	cgen.cc	/^void class_dispatch_ref(){$/
+comp	cool-tree.cc	/^Expression comp(Expression e1)$/
+comp_class	cool-tree.h	649
+comp_class::code	cgen.cc	/^void comp_class::code(ostream &s, Environment env)/
+comp_class::comp_EXTRAS	cool-tree.h	663
+comp_class::comp_class	cool-tree.h	/^   comp_class(Expression a1) {$/
+comp_class::copy_Expression	cool-tree.cc	/^Expression comp_class::copy_Expression()$/
+comp_class::dump	cool-tree.cc	/^void comp_class::dump(ostream& stream, int n)$/
+comp_class::dump_with_types	dumptype.cc	/^void comp_class::dump_with_types(ostream& stream, /
+comp_class::e1	cool-tree.h	651
+concat	cgen.cc	69
+cond	cool-tree.cc	/^Expression cond(Expression pred, Expression then_e/
+cond_class	cool-tree.h	361
+cond_class::code	cgen.cc	/^void cond_class::code(ostream &s, Environment env)/
+cond_class::cond_EXTRAS	cool-tree.h	379
+cond_class::cond_class	cool-tree.h	/^   cond_class(Expression a1, Expression a2, Expres/
+cond_class::copy_Expression	cool-tree.cc	/^Expression cond_class::copy_Expression()$/
+cond_class::dump	cool-tree.cc	/^void cond_class::dump(ostream& stream, int n)$/
+cond_class::dump_with_types	dumptype.cc	/^void cond_class::dump_with_types(ostream& stream, /
+cond_class::else_exp	cool-tree.h	365
+cond_class::pred	cool-tree.h	363
+cond_class::then_exp	cool-tree.h	364
+cool_abort	cgen.cc	70
+cool_token_to_string	utilities.cc	/^char *cool_token_to_string(int tok)$/
+cool_yydebug	cgen-phase.cc	14
+cool_yylval	ast.flex	36
+copy	cgen.cc	71
+copy_Boolean	cool-tree.handcode.h	/^inline Boolean copy_Boolean(Boolean b) {return b; /
+copy_Symbol	stringtab.cc	/^Symbol copy_Symbol(const Symbol s)$/
+curr_filename	cgen-phase.cc	16
+curr_lineno	cgen-phase.cc	15
+defaultInt	cgen.cc	137
+defaultString	cgen.cc	138
+disable_reg_alloc	handle_flags.cc	30
+dispatch	cool-tree.cc	/^Expression dispatch(Expression expr, Symbol name, /
+dispatch_class	cool-tree.h	337
+dispatch_class::actual	cool-tree.h	341
+dispatch_class::code	cgen.cc	/^void dispatch_class::code(ostream &s, Environment /
+dispatch_class::copy_Expression	cool-tree.cc	/^Expression dispatch_class::copy_Expression()$/
+dispatch_class::dispatch_EXTRAS	cool-tree.h	355
+dispatch_class::dispatch_class	cool-tree.h	/^   dispatch_class(Expression a1, Symbol a2, Expres/
+dispatch_class::dump	cool-tree.cc	/^void dispatch_class::dump(ostream& stream, int n)$/
+dispatch_class::dump_with_types	dumptype.cc	/^void dispatch_class::dump_with_types(ostream& stre/
+dispatch_class::expr	cool-tree.h	339
+dispatch_class::name	cool-tree.h	340
+divide	cool-tree.cc	/^Expression divide(Expression e1, Expression e2)$/
+divide_class	cool-tree.h	541
+divide_class::code	cgen.cc	/^void divide_class::code(ostream &s, Environment en/
+divide_class::copy_Expression	cool-tree.cc	/^Expression divide_class::copy_Expression()$/
+divide_class::divide_EXTRAS	cool-tree.h	557
+divide_class::divide_class	cool-tree.h	/^   divide_class(Expression a1, Expression a2) {$/
+divide_class::dump	cool-tree.cc	/^void divide_class::dump(ostream& stream, int n)$/
+divide_class::dump_with_types	dumptype.cc	/^void divide_class::dump_with_types(ostream& stream/
+divide_class::e1	cool-tree.h	543
+divide_class::e2	cool-tree.h	544
+dummy	cgen.cc	44
+dump_Boolean	cool-tree.handcode.h	/^inline void dump_Boolean(ostream& stream, int padd/
+dump_Symbol	stringtab.cc	/^void dump_Symbol(ostream& s, int n, Symbol sym)$/
+dump_cool_token	utilities.cc	/^void dump_cool_token(ostream& out, int lineno, int/
+dump_line	dumptype.cc	/^void dump_line(ostream& stream, int n, tree_node */
+emit_add	cgen.cc	/^static void emit_add(char *dest, char *src1, char /
+emit_addiu	cgen.cc	/^static void emit_addiu(char *dest, char *src1, int/
+emit_addu	cgen.cc	/^static void emit_addu(char *dest, char *src1, char/
+emit_beq	cgen.cc	/^static void emit_beq(char *src1, char *src2, int l/
+emit_beqz	cgen.cc	/^static void emit_beqz(char *source, int label, ost/
+emit_bgti	cgen.cc	/^static void emit_bgti(char *src1, int imm, int lab/
+emit_bleq	cgen.cc	/^static void emit_bleq(char *src1, char *src2, int /
+emit_blt	cgen.cc	/^static void emit_blt(char *src1, char *src2, int l/
+emit_blti	cgen.cc	/^static void emit_blti(char *src1, int imm, int lab/
+emit_bne	cgen.cc	/^static void emit_bne(char *src1, char *src2, int l/
+emit_branch	cgen.cc	/^static void emit_branch(int l, ostream& s)$/
+emit_disptable_ref	cgen.cc	/^static void emit_disptable_ref(Symbol sym, ostream/
+emit_div	cgen.cc	/^static void emit_div(char *dest, char *src1, char /
+emit_fetch_int	cgen.cc	/^static void emit_fetch_int(char *dest, char *sourc/
+emit_gc_assign	cgen.cc	/^static void emit_gc_assign(ostream& s)$/
+emit_gc_check	cgen.cc	/^static void emit_gc_check(char *source, ostream &s/
+emit_init_ref	cgen.cc	/^static void emit_init_ref(Symbol sym, ostream& s)$/
+emit_jal	cgen.cc	/^static void emit_jal(const char *address,ostream &/
+emit_jalr	cgen.cc	/^static void emit_jalr(char *dest, ostream& s)$/
+emit_label_def	cgen.cc	/^static void emit_label_def(int l, ostream &s)$/
+emit_label_ref	cgen.cc	/^static void emit_label_ref(int l, ostream &s)$/
+emit_load	cgen.cc	/^static void emit_load(char *dest_reg, int offset, /
+emit_load_address	cgen.cc	/^static void emit_load_address(char *dest_reg, cons/
+emit_load_bool	cgen.cc	/^static void emit_load_bool(char *dest, const BoolC/
+emit_load_imm	cgen.cc	/^static void emit_load_imm(char *dest_reg, int val,/
+emit_load_int	cgen.cc	/^static void emit_load_int(char *dest, IntEntry *i,/
+emit_load_string	cgen.cc	/^static void emit_load_string(char *dest, StringEnt/
+emit_method_ref	cgen.cc	/^static void emit_method_ref(Symbol classname, Symb/
+emit_move	cgen.cc	/^static void emit_move(char *dest_reg, char *source/
+emit_mul	cgen.cc	/^static void emit_mul(char *dest, char *src1, char /
+emit_neg	cgen.cc	/^static void emit_neg(char *dest, char *src1, ostre/
+emit_partial_load_address	cgen.cc	/^static void emit_partial_load_address(char *dest_r/
+emit_protobj_ref	cgen.cc	/^static void emit_protobj_ref(Symbol sym, ostream& /
+emit_push	cgen.cc	/^static void emit_push(char *reg, ostream& str)$/
+emit_return	cgen.cc	/^static void emit_return(ostream& s)$/
+emit_sll	cgen.cc	/^static void emit_sll(char *dest, char *src1, int n/
+emit_store	cgen.cc	/^static void emit_store(char *source_reg, int offse/
+emit_store_int	cgen.cc	/^static void emit_store_int(char *source, char *des/
+emit_string_constant	cgen_supp.cc	/^void emit_string_constant(ostream& str, char* s)$/
+emit_sub	cgen.cc	/^static void emit_sub(char *dest, char *src1, char /
+emit_test_collector	cgen.cc	/^static void emit_test_collector(ostream &s)$/
+eq	cool-tree.cc	/^Expression eq(Expression e1, Expression e2)$/
+eq_class	cool-tree.h	605
+eq_class::code	cgen.cc	/^void eq_class::code(ostream &s, Environment env) {/
+eq_class::copy_Expression	cool-tree.cc	/^Expression eq_class::copy_Expression()$/
+eq_class::dump	cool-tree.cc	/^void eq_class::dump(ostream& stream, int n)$/
+eq_class::dump_with_types	dumptype.cc	/^void eq_class::dump_with_types(ostream& stream, in/
+eq_class::e1	cool-tree.h	607
+eq_class::e2	cool-tree.h	608
+eq_class::eq_EXTRAS	cool-tree.h	621
+eq_class::eq_class	cool-tree.h	/^   eq_class(Expression a1, Expression a2) {$/
+fatal_error	utilities.cc	/^void fatal_error(char *msg)$/
+flex_int16_t	ast-lex.cc	71
+flex_int16_t	ast-lex.cc	77
+flex_int32_t	ast-lex.cc	73
+flex_int32_t	ast-lex.cc	78
+flex_int8_t	ast-lex.cc	69
+flex_int8_t	ast-lex.cc	76
+flex_uint16_t	ast-lex.cc	72
+flex_uint16_t	ast-lex.cc	80
+flex_uint32_t	ast-lex.cc	74
+flex_uint32_t	ast-lex.cc	81
+flex_uint8_t	ast-lex.cc	70
+flex_uint8_t	ast-lex.cc	79
+formal	cool-tree.cc	/^Formal formal(Symbol name, Symbol type_decl)$/
+formal_EXTRAS	cool-tree.handcode.h	83
+formal_class	cool-tree.h	241
+formal_class::copy_Formal	cool-tree.cc	/^Formal formal_class::copy_Formal()$/
+formal_class::dump	cool-tree.cc	/^void formal_class::dump(ostream& stream, int n)$/
+formal_class::dump_with_types	dumptype.cc	/^void formal_class::dump_with_types(ostream& stream/
+formal_class::formal_EXTRAS	cool-tree.h	258
+formal_class::formal_class	cool-tree.h	/^   formal_class(Symbol a1, Symbol a2) {$/
+formal_class::get_name	cool-tree.h	/^   Symbol get_name(){return name;}$/
+formal_class::name	cool-tree.h	243
+formal_class::type_decl	cool-tree.h	244
+gc_collect_names	cgen.cc	129
+gc_init_names	cgen.cc	127
+getClassWithMethod	cgen.cc	/^Symbol getClassWithMethod(Symbol classname, Symbol/
+getMethodIndex	cgen.cc	/^int getMethodIndex(Symbol classname, Symbol method/
+getMethodIndex2	cgen.cc	/^int getMethodIndex2(Symbol classname, Symbol metho/
+getMethodTable	cgen.cc	/^std::vector<std::pair<Symbol, Symbol>> getMethodTa/
+getParents	cgen.cc	/^std::vector<Symbol> getParents(Symbol classname){$/
+glabel	cgen.cc	40
+handle_flags	handle_flags.cc	/^void handle_flags(int argc, char *argv[]) {$/
+idtable	stringtab.cc	77
+in_int	cgen.cc	73
+in_string	cgen.cc	74
+initialize_constants	cgen.cc	/^static void initialize_constants(void)$/
+int_const	cool-tree.cc	/^Expression int_const(Symbol token)$/
+int_const_class	cool-tree.h	669
+int_const_class::code	cgen.cc	/^void int_const_class::code(ostream& s, Environment/
+int_const_class::copy_Expression	cool-tree.cc	/^Expression int_const_class::copy_Expression()$/
+int_const_class::dump	cool-tree.cc	/^void int_const_class::dump(ostream& stream, int n)/
+int_const_class::dump_with_types	dumptype.cc	/^void int_const_class::dump_with_types(ostream& str/
+int_const_class::int_const_EXTRAS	cool-tree.h	683
+int_const_class::int_const_class	cool-tree.h	/^   int_const_class(Symbol a1) {$/
+int_const_class::token	cool-tree.h	671
+inttable	stringtab.cc	78
+isvoid	cool-tree.cc	/^Expression isvoid(Expression e1)$/
+isvoid_class	cool-tree.h	749
+isvoid_class::code	cgen.cc	/^void isvoid_class::code(ostream &s, Environment en/
+isvoid_class::copy_Expression	cool-tree.cc	/^Expression isvoid_class::copy_Expression()$/
+isvoid_class::dump	cool-tree.cc	/^void isvoid_class::dump(ostream& stream, int n)$/
+isvoid_class::dump_with_types	dumptype.cc	/^void isvoid_class::dump_with_types(ostream& stream/
+isvoid_class::e1	cool-tree.h	751
+isvoid_class::isvoid_EXTRAS	cool-tree.h	763
+isvoid_class::isvoid_class	cool-tree.h	/^   isvoid_class(Expression a1) {$/
+length	cgen.cc	76
+leq	cool-tree.cc	/^Expression leq(Expression e1, Expression e2)$/
+leq_class	cool-tree.h	627
+leq_class::code	cgen.cc	/^void leq_class::code(ostream &s, Environment env) /
+leq_class::copy_Expression	cool-tree.cc	/^Expression leq_class::copy_Expression()$/
+leq_class::dump	cool-tree.cc	/^void leq_class::dump(ostream& stream, int n)$/
+leq_class::dump_with_types	dumptype.cc	/^void leq_class::dump_with_types(ostream& stream, i/
+leq_class::e1	cool-tree.h	629
+leq_class::e2	cool-tree.h	630
+leq_class::leq_EXTRAS	cool-tree.h	643
+leq_class::leq_class	cool-tree.h	/^   leq_class(Expression a1, Expression a2) {$/
+let	cool-tree.cc	/^Expression let(Symbol identifier, Symbol type_decl/
+let_class	cool-tree.h	449
+let_class::body	cool-tree.h	454
+let_class::code	cgen.cc	/^void let_class::code(ostream &s, Environment env) /
+let_class::copy_Expression	cool-tree.cc	/^Expression let_class::copy_Expression()$/
+let_class::dump	cool-tree.cc	/^void let_class::dump(ostream& stream, int n)$/
+let_class::dump_with_types	dumptype.cc	/^void let_class::dump_with_types(ostream& stream, i/
+let_class::identifier	cool-tree.h	451
+let_class::init	cool-tree.h	453
+let_class::let_EXTRAS	cool-tree.h	469
+let_class::let_class	cool-tree.h	/^   let_class(Symbol a1, Symbol a2, Expression a3, /
+let_class::type_decl	cool-tree.h	452
+lex_verbose	handle_flags.cc	27
+log	cgen.cc	46
+loop	cool-tree.cc	/^Expression loop(Expression pred, Expression body)$/
+loop_class	cool-tree.h	385
+loop_class::body	cool-tree.h	388
+loop_class::code	cgen.cc	/^void loop_class::code(ostream &s, Environment env)/
+loop_class::copy_Expression	cool-tree.cc	/^Expression loop_class::copy_Expression()$/
+loop_class::dump	cool-tree.cc	/^void loop_class::dump(ostream& stream, int n)$/
+loop_class::dump_with_types	dumptype.cc	/^void loop_class::dump_with_types(ostream& stream, /
+loop_class::loop_EXTRAS	cool-tree.h	401
+loop_class::loop_class	cool-tree.h	/^   loop_class(Expression a1, Expression a2) {$/
+loop_class::pred	cool-tree.h	387
+lt	cool-tree.cc	/^Expression lt(Expression e1, Expression e2)$/
+lt_class	cool-tree.h	583
+lt_class::code	cgen.cc	/^void lt_class::code(ostream &s, Environment env) {/
+lt_class::copy_Expression	cool-tree.cc	/^Expression lt_class::copy_Expression()$/
+lt_class::dump	cool-tree.cc	/^void lt_class::dump(ostream& stream, int n)$/
+lt_class::dump_with_types	dumptype.cc	/^void lt_class::dump_with_types(ostream& stream, in/
+lt_class::e1	cool-tree.h	585
+lt_class::e2	cool-tree.h	586
+lt_class::lt_EXTRAS	cool-tree.h	599
+lt_class::lt_class	cool-tree.h	/^   lt_class(Expression a1, Expression a2) {$/
+main_meth	cgen.cc	78
+method	cool-tree.cc	/^Feature method(Symbol name, Formals formals, Symbo/
+method_class	cool-tree.h	184
+method_class::copy_Feature	cool-tree.cc	/^Feature method_class::copy_Feature()$/
+method_class::dump	cool-tree.cc	/^void method_class::dump(ostream& stream, int n)$/
+method_class::dump_with_types	dumptype.cc	/^void method_class::dump_with_types(ostream& stream/
+method_class::expr	cool-tree.h	189
+method_class::formals	cool-tree.h	187
+method_class::getMethod	cool-tree.h	/^   method_class* getMethod() { return this;}$/
+method_class::get_attr	cool-tree.h	/^   Attr get_attr() { return NULL; }$/
+method_class::get_name	cool-tree.h	/^   Symbol get_name(){return name;}$/
+method_class::is_method	cool-tree.h	/^   bool is_method(){return true;}$/
+method_class::method_EXTRAS	cool-tree.h	208
+method_class::method_class	cool-tree.h	/^   method_class(Symbol a1, Formals a2, Symbol a3, /
+method_class::name	cool-tree.h	186
+method_class::return_type	cool-tree.h	188
+mul	cool-tree.cc	/^Expression mul(Expression e1, Expression e2)$/
+mul_class	cool-tree.h	519
+mul_class::code	cgen.cc	/^void mul_class::code(ostream &s, Environment env) /
+mul_class::copy_Expression	cool-tree.cc	/^Expression mul_class::copy_Expression()$/
+mul_class::dump	cool-tree.cc	/^void mul_class::dump(ostream& stream, int n)$/
+mul_class::dump_with_types	dumptype.cc	/^void mul_class::dump_with_types(ostream& stream, i/
+mul_class::e1	cool-tree.h	521
+mul_class::e2	cool-tree.h	522
+mul_class::mul_EXTRAS	cool-tree.h	535
+mul_class::mul_class	cool-tree.h	/^   mul_class(Expression a1, Expression a2) {$/
+neg	cool-tree.cc	/^Expression neg(Expression e1)$/
+neg_class	cool-tree.h	563
+neg_class::code	cgen.cc	/^void neg_class::code(ostream &s, Environment env) /
+neg_class::copy_Expression	cool-tree.cc	/^Expression neg_class::copy_Expression()$/
+neg_class::dump	cool-tree.cc	/^void neg_class::dump(ostream& stream, int n)$/
+neg_class::dump_with_types	dumptype.cc	/^void neg_class::dump_with_types(ostream& stream, i/
+neg_class::e1	cool-tree.h	565
+neg_class::neg_EXTRAS	cool-tree.h	577
+neg_class::neg_class	cool-tree.h	/^   neg_class(Expression a1) {$/
+new_	cool-tree.cc	/^Expression new_(Symbol type_name)$/
+new__class	cool-tree.h	729
+new__class::code	cgen.cc	/^void new__class::code(ostream &s, Environment env)/
+new__class::copy_Expression	cool-tree.cc	/^Expression new__class::copy_Expression()$/
+new__class::dump	cool-tree.cc	/^void new__class::dump(ostream& stream, int n)$/
+new__class::dump_with_types	dumptype.cc	/^void new__class::dump_with_types(ostream& stream, /
+new__class::new__EXTRAS	cool-tree.h	743
+new__class::new__class	cool-tree.h	/^   new__class(Symbol a1) {$/
+new__class::type_name	cool-tree.h	731
+nil_Cases	cool-tree.cc	/^Cases nil_Cases()$/
+nil_Classes	cool-tree.cc	/^Classes nil_Classes()$/
+nil_Expressions	cool-tree.cc	/^Expressions nil_Expressions()$/
+nil_Features	cool-tree.cc	/^Features nil_Features()$/
+nil_Formals	cool-tree.cc	/^Formals nil_Formals()$/
+no_expr	cool-tree.cc	/^Expression no_expr()$/
+no_expr_class	cool-tree.h	769
+no_expr_class::code	cgen.cc	/^void no_expr_class::code(ostream &s, Environment e/
+no_expr_class::copy_Expression	cool-tree.cc	/^Expression no_expr_class::copy_Expression()$/
+no_expr_class::dump	cool-tree.cc	/^void no_expr_class::dump(ostream& stream, int n)$/
+no_expr_class::dump_with_types	dumptype.cc	/^void no_expr_class::dump_with_types(ostream& strea/
+no_expr_class::is_nil	cool-tree.h	/^   bool is_nil(){return true;}$/
+no_expr_class::no_expr_EXTRAS	cool-tree.h	782
+no_expr_class::no_expr_class	cool-tree.h	/^   no_expr_class() {$/
+node_lineno	tree.cc	19
+object	cool-tree.cc	/^Expression object(Symbol name)$/
+object_class	cool-tree.h	788
+object_class::code	cgen.cc	/^void object_class::code(ostream &s, Environment en/
+object_class::copy_Expression	cool-tree.cc	/^Expression object_class::copy_Expression()$/
+object_class::dump	cool-tree.cc	/^void object_class::dump(ostream& stream, int n)$/
+object_class::dump_with_types	dumptype.cc	/^void object_class::dump_with_types(ostream& stream/
+object_class::name	cool-tree.h	790
+object_class::object_EXTRAS	cool-tree.h	802
+object_class::object_class	cool-tree.h	/^   object_class(Symbol a1) {$/
+omerrs	ast.y	21
+operator<<	stringtab.cc	/^ostream& operator<<(ostream& s, const Entry& sym) /
+operator<<	stringtab.cc	/^ostream& operator<<(ostream& s, Symbol sym)$/
+out_filename	handle_flags.cc	33
+out_int	cgen.cc	82
+out_string	cgen.cc	83
+pad	utilities.cc	/^char *pad(int n) {$/
+padding	utilities.cc	34
+parse_results	ast.y	20
+plus	cool-tree.cc	/^Expression plus(Expression e1, Expression e2)$/
+plus_class	cool-tree.h	475
+plus_class::code	cgen.cc	/^void plus_class::code(ostream &s, Environment env)/
+plus_class::copy_Expression	cool-tree.cc	/^Expression plus_class::copy_Expression()$/
+plus_class::dump	cool-tree.cc	/^void plus_class::dump(ostream& stream, int n)$/
+plus_class::dump_with_types	dumptype.cc	/^void plus_class::dump_with_types(ostream& stream, /
+plus_class::e1	cool-tree.h	477
+plus_class::e2	cool-tree.h	478
+plus_class::plus_EXTRAS	cool-tree.h	491
+plus_class::plus_class	cool-tree.h	/^   plus_class(Expression a1, Expression a2) {$/
+prim_slot	cgen.cc	84
+print_cool_token	utilities.cc	/^void print_cool_token(int tok)$/
+print_escaped_string	utilities.cc	/^void print_escaped_string(ostream& str, const char/
+program	cool-tree.cc	/^Program program(Classes classes)$/
+program_EXTRAS	cool-tree.handcode.h	53
+program_class	cool-tree.h	138
+program_class::cgen	cgen.cc	/^void program_class::cgen(ostream &os) $/
+program_class::classes	cool-tree.h	140
+program_class::copy_Program	cool-tree.cc	/^Program program_class::copy_Program()$/
+program_class::dump	cool-tree.cc	/^void program_class::dump(ostream& stream, int n)$/
+program_class::dump_with_types	dumptype.cc	/^void program_class::dump_with_types(ostream& strea/
+program_class::program_EXTRAS	cool-tree.h	152
+program_class::program_class	cool-tree.h	/^   program_class(Classes a1) {$/
+self	cgen.cc	85
+semant_debug	handle_flags.cc	28
+short	ast.tab.c	243
+single_Cases	cool-tree.cc	/^Cases single_Cases(Case e)$/
+single_Classes	cool-tree.cc	/^Classes single_Classes(Class_ e)$/
+single_Expressions	cool-tree.cc	/^Expressions single_Expressions(Expression e)$/
+single_Features	cool-tree.cc	/^Features single_Features(Feature e)$/
+single_Formals	cool-tree.cc	/^Formals single_Formals(Formal e)$/
+static_dispatch	cool-tree.cc	/^Expression static_dispatch(Expression expr, Symbol/
+static_dispatch_class	cool-tree.h	311
+static_dispatch_class::actual	cool-tree.h	316
+static_dispatch_class::code	cgen.cc	/^void static_dispatch_class::code(ostream &s, Envir/
+static_dispatch_class::copy_Expression	cool-tree.cc	/^Expression static_dispatch_class::copy_Expression(/
+static_dispatch_class::dump	cool-tree.cc	/^void static_dispatch_class::dump(ostream& stream, /
+static_dispatch_class::dump_with_types	dumptype.cc	/^void static_dispatch_class::dump_with_types(ostrea/
+static_dispatch_class::expr	cool-tree.h	313
+static_dispatch_class::name	cool-tree.h	315
+static_dispatch_class::static_dispatch_EXTRAS	cool-tree.h	331
+static_dispatch_class::static_dispatch_class	cool-tree.h	/^   static_dispatch_class(Expression a1, Symbol a2,/
+static_dispatch_class::type_name	cool-tree.h	314
+str_field	cgen.cc	88
+strdup	utilities.cc	/^char *strdup(const char *s)$/
+string_buf	ast.flex	29
+string_buf_ptr	ast.flex	30
+string_const	cool-tree.cc	/^Expression string_const(Symbol token)$/
+string_const_class	cool-tree.h	709
+string_const_class::code	cgen.cc	/^void string_const_class::code(ostream& s, Environm/
+string_const_class::copy_Expression	cool-tree.cc	/^Expression string_const_class::copy_Expression()$/
+string_const_class::dump	cool-tree.cc	/^void string_const_class::dump(ostream& stream, int/
+string_const_class::dump_with_types	dumptype.cc	/^void string_const_class::dump_with_types(ostream& /
+string_const_class::string_const_EXTRAS	cool-tree.h	723
+string_const_class::string_const_class	cool-tree.h	/^   string_const_class(Symbol a1) {$/
+string_const_class::token	cool-tree.h	711
+stringtable	stringtab.cc	79
+sub	cool-tree.cc	/^Expression sub(Expression e1, Expression e2)$/
+sub_class	cool-tree.h	497
+sub_class::code	cgen.cc	/^void sub_class::code(ostream &s, Environment env) /
+sub_class::copy_Expression	cool-tree.cc	/^Expression sub_class::copy_Expression()$/
+sub_class::dump	cool-tree.cc	/^void sub_class::dump(ostream& stream, int n)$/
+sub_class::dump_with_types	dumptype.cc	/^void sub_class::dump_with_types(ostream& stream, i/
+sub_class::e1	cool-tree.h	499
+sub_class::e2	cool-tree.h	500
+sub_class::sub_EXTRAS	cool-tree.h	513
+sub_class::sub_class	cool-tree.h	/^   sub_class(Expression a1, Expression a2) {$/
+substr	cgen.cc	89
+testing	cgen.cc	43
+tree_node::get_line_number	tree.cc	/^int tree_node::get_line_number()$/
+tree_node::set	tree.cc	/^tree_node *tree_node::set(tree_node *t) {$/
+tree_node::tree_node	tree.cc	/^tree_node::tree_node()$/
+typcase	cool-tree.cc	/^Expression typcase(Expression expr, Cases cases)$/
+typcase_class	cool-tree.h	407
+typcase_class::cases	cool-tree.h	410
+typcase_class::code	cgen.cc	/^void typcase_class::code(ostream &s, Environment e/
+typcase_class::copy_Expression	cool-tree.cc	/^Expression typcase_class::copy_Expression()$/
+typcase_class::dump	cool-tree.cc	/^void typcase_class::dump(ostream& stream, int n)$/
+typcase_class::dump_with_types	dumptype.cc	/^void typcase_class::dump_with_types(ostream& strea/
+typcase_class::expr	cool-tree.h	409
+typcase_class::typcase_EXTRAS	cool-tree.h	423
+typcase_class::typcase_class	cool-tree.h	/^   typcase_class(Expression a1, Cases a2) {$/
+type_name	cgen.cc	90
+unput	ast-lex.cc	/^#define unput(c) yyunput( c, (yytext_ptr)  )$/
+val	cgen.cc	91
+yy_accept	ast-lex.cc	464
+yy_base	ast-lex.cc	526
+yy_buffer_stack	ast-lex.cc	323
+yy_buffer_stack_max	ast-lex.cc	322
+yy_buffer_stack_top	ast-lex.cc	321
+yy_buffer_state	ast-lex.cc	247
+yy_buffer_state::yy_at_bol	ast-lex.cc	286
+yy_buffer_state::yy_bs_column	ast-lex.cc	289
+yy_buffer_state::yy_bs_lineno	ast-lex.cc	288
+yy_buffer_state::yy_buf_pos	ast-lex.cc	257
+yy_buffer_state::yy_buf_size	ast-lex.cc	262
+yy_buffer_state::yy_buffer_status	ast-lex.cc	296
+yy_buffer_state::yy_ch_buf	ast-lex.cc	256
+yy_buffer_state::yy_fill_buffer	ast-lex.cc	294
+yy_buffer_state::yy_input_file	ast-lex.cc	250
+yy_buffer_state::yy_is_interactive	ast-lex.cc	280
+yy_buffer_state::yy_is_our_buffer	ast-lex.cc	273
+yy_buffer_state::yy_n_chars	ast-lex.cc	267
+yy_c_buf_p	ast-lex.cc	355
+yy_chk	ast-lex.cc	598
+yy_create_buffer	ast-lex.cc	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file/
+yy_def	ast-lex.cc	548
+yy_delete_buffer	ast-lex.cc	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/
+yy_did_buffer_switch_on_eof	ast-lex.cc	362
+yy_ec	ast-lex.cc	486
+yy_fatal_error	ast-lex.cc	/^static void yy_fatal_error (yyconst char* msg )$/
+yy_flex_debug	ast-lex.cc	630
+yy_flex_strlen	ast-lex.cc	/^static int yy_flex_strlen (yyconst char * s )$/
+yy_flex_strncpy	ast-lex.cc	/^static void yy_flex_strncpy (char* s1, yyconst cha/
+yy_flush_buffer	ast-lex.cc	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/
+yy_get_next_buffer	ast-lex.cc	/^static int yy_get_next_buffer (void)$/
+yy_get_previous_state	ast-lex.cc	/^    static yy_state_type yy_get_previous_state (vo/
+yy_hold_char	ast-lex.cc	350
+yy_init	ast-lex.cc	356
+yy_init_buffer	ast-lex.cc	/^    static void yy_init_buffer  (YY_BUFFER_STATE  /
+yy_init_globals	ast-lex.cc	/^static int yy_init_globals (void)$/
+yy_last_accepting_cpos	ast-lex.cc	627
+yy_last_accepting_state	ast-lex.cc	626
+yy_load_buffer_state	ast-lex.cc	/^static void yy_load_buffer_state  (void)$/
+yy_meta	ast-lex.cc	518
+yy_n_chars	ast-lex.cc	351
+yy_new_buffer	ast-lex.cc	391
+yy_nxt	ast-lex.cc	570
+yy_rule_linenum	ast-lex.cc	632
+yy_scan_buffer	ast-lex.cc	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_s/
+yy_scan_bytes	ast-lex.cc	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yyb/
+yy_scan_string	ast-lex.cc	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yys/
+yy_set_bol	ast-lex.cc	/^#define yy_set_bol(at_bol) \\$/
+yy_set_interactive	ast-lex.cc	/^#define yy_set_interactive(is_interactive) \\$/
+yy_size_t	ast-lex.cc	242
+yy_start	ast-lex.cc	357
+yy_state_type	ast-lex.cc	424
+yy_switch_to_buffer	ast-lex.cc	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  ne/
+yy_trans_info	ast-lex.cc	459
+yy_trans_info::yy_nxt	ast-lex.cc	462
+yy_trans_info::yy_verify	ast-lex.cc	461
+yy_try_NUL_trans	ast-lex.cc	/^    static yy_state_type yy_try_NUL_trans  (yy_sta/
+yyalloc	ast.tab.c	401
+yyalloc	ast-lex.cc	/^void *yyalloc (yy_size_t  size )$/
+yyalloc::yyss_alloc	ast.tab.c	403
+yyalloc::yyvs_alloc	ast.tab.c	404
+yybottom	ast.tab.c	912
+yychar	ast-parse.cc	71
+yycheck	ast.tab.c	686
+yyclearin	ast.tab.c	722
+yyconst	ast-lex.cc	137
+yyconst	ast-lex.cc	139
+yydebug	ast-parse.cc	72
+yydefact	ast.tab.c	614
+yydefgoto	ast.tab.c	632
+yyensure_buffer_stack	ast-lex.cc	/^static void yyensure_buffer_stack (void)$/
+yyerrlab1	ast.tab.c	1978
+yyerrlab1	ast.tab.c	1998
+yyerrok	ast.tab.c	721
+yyerror	ast-parse.cc	69
+yyerrstatus	ast.tab.c	2005
+yyfree	ast-lex.cc	/^void yyfree (void * ptr )$/
+yyget_debug	ast-lex.cc	/^int yyget_debug  (void)$/
+yyget_in	ast-lex.cc	/^FILE *yyget_in  (void)$/
+yyget_leng	ast-lex.cc	/^int yyget_leng  (void)$/
+yyget_lineno	ast-lex.cc	/^int yyget_lineno  (void)$/
+yyget_out	ast-lex.cc	/^FILE *yyget_out  (void)$/
+yyget_text	ast-lex.cc	/^char *yyget_text  (void)$/
+yyin	ast-lex.cc	422
+yyinput	ast-lex.cc	/^    static int yyinput (void)$/
+yylen	ast.tab.c	1890
+yylen	ast.tab.c	1995
+yyleng	ast-lex.cc	352
+yyless	ast-lex.cc	/^#define yyless(n) \\$/
+yyless	ast-lex.cc	2229
+yyless	ast-lex.cc	/^#define yyless(n) \\$/
+yylex	ast-parse.cc	68
+yylex	ast.flex	11
+yylex_destroy	ast-lex.cc	/^int yylex_destroy  (void)$/
+yylineno	ast.y	13
+yylineno	ast-lex.cc	428
+yylineno	cool-tree.handcode.h	11
+yylval	ast-parse.cc	70
+yylval	ast.flex	10
+yymore	ast-lex.cc	/^#define yymore() yymore_used_but_not_detected$/
+yyn	ast.tab.c	1899
+yyn	ast.tab.c	2009
+yynerrs	ast-parse.cc	73
+yynewstate	ast.tab.c	1907
+yynewstate	ast.tab.c	2040
+yypact	ast.tab.c	641
+yyparse	ast-parse.cc	67
+yypgoto	ast.tab.c	659
+yypop_buffer_state	ast-lex.cc	/^void yypop_buffer_state (void)$/
+yyprhs	ast.tab.c	511
+yypush_buffer_state	ast-lex.cc	/^void yypush_buffer_state (YY_BUFFER_STATE new_buff/
+yyr1	ast.tab.c	590
+yyr2	ast.tab.c	601
+yyrealloc	ast-lex.cc	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/
+yyrestart	ast-lex.cc	/^    void yyrestart  (FILE * input_file )$/
+yyresult	ast.tab.c	2047
+yyresult	ast.tab.c	2054
+yyresult	ast.tab.c	2063
+yyreturn	ast.tab.c	2048
+yyreturn	ast.tab.c	2055
+yyrhs	ast.tab.c	522
+yyrline	ast.tab.c	548
+yyset_debug	ast-lex.cc	/^void yyset_debug (int  bdebug )$/
+yyset_in	ast-lex.cc	/^void yyset_in (FILE *  in_str )$/
+yyset_lineno	ast-lex.cc	/^void yyset_lineno (int  line_number )$/
+yyset_out	ast-lex.cc	/^void yyset_out (FILE *  out_str )$/
+yystate	ast.tab.c	1901
+yystate	ast.tab.c	1905
+yystate	ast.tab.c	1997
+yystate	ast.tab.c	2029
+yystate	ast.tab.c	2039
+yystos	ast.tab.c	704
+yystype	ast.tab.c	231
+yytable	ast.tab.c	670
+yyterminate	ast-lex.cc	/^#define yyterminate() return YY_NULL$/
+yytext	ast-lex.cc	648
+yytext_ptr	ast-lex.cc	431
+yytname	ast.tab.c	562
+yytokentype	ast.tab.c	125
+yytokentype::ASSIGN	ast.tab.c	132
+yytokentype::ATTR	ast.tab.c	129
+yytokentype::BLOCK	ast.tab.c	138
+yytokentype::BOOL	ast.tab.c	151
+yytokentype::BRANCH	ast.tab.c	131
+yytokentype::CLASS	ast.tab.c	127
+yytokentype::COMP	ast.tab.c	148
+yytokentype::COND	ast.tab.c	135
+yytokentype::DISPATCH	ast.tab.c	134
+yytokentype::DIVIDE	ast.tab.c	143
+yytokentype::EQ	ast.tab.c	146
+yytokentype::FORMAL	ast.tab.c	130
+yytokentype::ID	ast.tab.c	159
+yytokentype::INT	ast.tab.c	149
+yytokentype::INT_CONST	ast.tab.c	158
+yytokentype::ISVOID	ast.tab.c	153
+yytokentype::LEQ	ast.tab.c	147
+yytokentype::LET	ast.tab.c	139
+yytokentype::LINENO	ast.tab.c	160
+yytokentype::LOOP	ast.tab.c	136
+yytokentype::LT	ast.tab.c	145
+yytokentype::METHOD	ast.tab.c	128
+yytokentype::MUL	ast.tab.c	142
+yytokentype::NEG	ast.tab.c	144
+yytokentype::NEW	ast.tab.c	152
+yytokentype::NO_EXPR	ast.tab.c	154
+yytokentype::NO_TYPE	ast.tab.c	156
+yytokentype::OBJECT	ast.tab.c	155
+yytokentype::PLUS	ast.tab.c	140
+yytokentype::PROGRAM	ast.tab.c	126
+yytokentype::STATIC_DISPATCH	ast.tab.c	133
+yytokentype::STR	ast.tab.c	150
+yytokentype::STR_CONST	ast.tab.c	157
+yytokentype::SUB	ast.tab.c	141
+yytokentype::TYPCASE	ast.tab.c	137
+yytoknum	ast.tab.c	579
+yytop	ast.tab.c	908
+yytranslate	ast.tab.c	474
+yytype	ast.tab.c	850
+yytype	ast.tab.c	882
+yytype_int16	ast.tab.c	268
+yytype_int16	ast.tab.c	270
+yytype_int8	ast.tab.c	253
+yytype_int8	ast.tab.c	256
+yytype_int8	ast.tab.c	258
+yytype_uint16	ast.tab.c	262
+yytype_uint16	ast.tab.c	264
+yytype_uint8	ast.tab.c	247
+yytype_uint8	ast.tab.c	249
+yyunput	ast-lex.cc	/^    static void yyunput (int c, register char * yy/
+yyvaluep	ast.tab.c	851
+yyvaluep	ast.tab.c	883
+yyvsp	ast.tab.c	1893
+yyvsp	ast.tab.c	2033
