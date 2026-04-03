@@ -35,6 +35,11 @@ class Class__class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Class_(); }
    virtual Class_ copy_Class_() = 0;
+   // virtual Symbol getName() { return NULL; }
+   virtual Symbol getName() = 0;
+   virtual Symbol getParent() = 0;
+   virtual Features getFeatures() = 0;
+   
 
 #ifdef Class__EXTRAS
    Class__EXTRAS
@@ -49,6 +54,9 @@ class Feature_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Feature(); }
    virtual Feature copy_Feature() = 0;
+   virtual void updateMethodsMap(Class_ cls) = 0;
+   virtual void updateAttrsMap(Class_ cls) = 0;
+   virtual void RecursiveCheck() = 0;
 
 #ifdef Feature_EXTRAS
    Feature_EXTRAS
@@ -63,6 +71,8 @@ class Formal_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Formal(); }
    virtual Formal copy_Formal() = 0;
+   virtual Symbol getName() = 0;
+   virtual Symbol getTypeDecl() = 0;
 
 #ifdef Formal_EXTRAS
    Formal_EXTRAS
@@ -77,6 +87,7 @@ class Expression_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Expression(); }
    virtual Expression copy_Expression() = 0;
+   virtual Symbol RecursiveCheck(){return NULL;}
 
 #ifdef Expression_EXTRAS
    Expression_EXTRAS
@@ -91,6 +102,8 @@ class Case_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Case(); }
    virtual Case copy_Case() = 0;
+   virtual Symbol RecursiveCheck() = 0;
+   virtual Symbol getTypeDecl() = 0;
 
 #ifdef Case_EXTRAS
    Case_EXTRAS
@@ -161,6 +174,9 @@ public:
    }
    Class_ copy_Class_();
    void dump(ostream& stream, int n);
+   Symbol getName() { return name; }
+   Symbol getParent() { return parent; }
+   Features getFeatures() { return features; }
 
 #ifdef Class__SHARED_EXTRAS
    Class__SHARED_EXTRAS
@@ -171,6 +187,7 @@ public:
 };
 
 
+typedef class method_class*  Method;
 // define constructor - method
 class method_class : public Feature_class {
 protected:
@@ -187,6 +204,12 @@ public:
    }
    Feature copy_Feature();
    void dump(ostream& stream, int n);
+   void updateMethodsMap(Class_ cls);
+   void updateAttrsMap(Class_ cls);
+   Formals getFormals(){return formals;}
+   Symbol getReturnType(){return return_type;}
+   Symbol getName(){return name;}
+   void RecursiveCheck();
 
 #ifdef Feature_SHARED_EXTRAS
    Feature_SHARED_EXTRAS
@@ -198,6 +221,7 @@ public:
 
 
 // define constructor - attr
+typedef class attr_class* Attr;
 class attr_class : public Feature_class {
 protected:
    Symbol name;
@@ -211,6 +235,11 @@ public:
    }
    Feature copy_Feature();
    void dump(ostream& stream, int n);
+   void updateMethodsMap(Class_ cls);
+   void updateAttrsMap(Class_ cls);
+   Symbol getName(){return name;}
+   Symbol getTypeDecl() {return type_decl;}
+   void RecursiveCheck();
 
 #ifdef Feature_SHARED_EXTRAS
    Feature_SHARED_EXTRAS
@@ -233,6 +262,8 @@ public:
    }
    Formal copy_Formal();
    void dump(ostream& stream, int n);
+   Symbol getName(){return name;}
+   Symbol getTypeDecl(){return type_decl;}
 
 #ifdef Formal_SHARED_EXTRAS
    Formal_SHARED_EXTRAS
@@ -257,6 +288,8 @@ public:
    }
    Case copy_Case();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
+   Symbol getTypeDecl(){ return type_decl; }
 
 #ifdef Case_SHARED_EXTRAS
    Case_SHARED_EXTRAS
@@ -279,6 +312,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck(); 
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -305,6 +339,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -329,6 +364,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -353,6 +389,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -375,6 +412,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -397,6 +435,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -417,6 +456,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -443,6 +483,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -465,6 +506,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -487,6 +529,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -509,6 +552,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -531,6 +575,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -551,6 +596,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -573,6 +619,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -595,6 +642,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -617,6 +665,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -637,6 +686,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -645,7 +695,6 @@ public:
    comp_EXTRAS
 #endif
 };
-
 
 // define constructor - int_const
 class int_const_class : public Expression_class {
@@ -657,6 +706,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -677,6 +727,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -697,6 +748,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -717,6 +769,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -737,6 +790,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -755,6 +809,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
@@ -775,6 +830,7 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
+   Symbol RecursiveCheck();
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
