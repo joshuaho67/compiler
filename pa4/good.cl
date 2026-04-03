@@ -1,16 +1,17 @@
-class Main inherits IO {
-  x : Int;
-  f(y : Int) : SELF_TYPE { {
-    out_int(x + y);
-    out_string("\n");
-    self;
-  } };
-  g(z : Int) : Int { {
-    x <- x + 1;
-    z + x;
-  } };
-  main() : Object {
-    --f(g(1)).f(g(g(5))).f(g(g(g(10))))
-    f(g(1)).f(g(g(5)))
-  };
+class C {
+	a : Int;
+	b : Bool;
+	init(x : Int, y : Bool) : C {
+           {
+		a <- x;
+		b <- y;
+		self;
+           }
+	};
+};
+
+Class Main {
+	main():C {
+	  (new C).init(1,true)
+	};
 };

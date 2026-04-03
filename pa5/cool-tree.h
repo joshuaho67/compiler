@@ -11,8 +11,7 @@
 
 #include "tree.h"
 #include "cool-tree.handcode.h"
-class Environment;
-class branch_class;
+
 
 // define the class for phylum
 // define simple phylum - Program
@@ -45,16 +44,11 @@ public:
 
 // define simple phylum - Feature
 typedef class Feature_class *Feature;
-typedef class attr_class *Attr;
 
 class Feature_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Feature(); }
    virtual Feature copy_Feature() = 0;
-   virtual bool is_method() = 0;
-   virtual Symbol get_name() = 0;
-   virtual  Attr get_attr() = 0;
-   virtual class method_class* getMethod() { return NULL;}
 
 #ifdef Feature_EXTRAS
    Feature_EXTRAS
@@ -69,7 +63,6 @@ class Formal_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Formal(); }
    virtual Formal copy_Formal() = 0;
-   virtual Symbol get_name() = 0;
 
 #ifdef Formal_EXTRAS
    Formal_EXTRAS
@@ -84,7 +77,6 @@ class Expression_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Expression(); }
    virtual Expression copy_Expression() = 0;
-   virtual bool is_nil(){return false;}
 
 #ifdef Expression_EXTRAS
    Expression_EXTRAS
@@ -99,7 +91,6 @@ class Case_class : public tree_node {
 public:
    tree_node *copy()		 { return copy_Case(); }
    virtual Case copy_Case() = 0;
-   virtual branch_class* get_case(){ return NULL;}
 
 #ifdef Case_EXTRAS
    Case_EXTRAS
@@ -196,10 +187,6 @@ public:
    }
    Feature copy_Feature();
    void dump(ostream& stream, int n);
-   bool is_method(){return true;}
-   Symbol get_name(){return name;}
-   Attr get_attr() { return NULL; }
-   method_class* getMethod() { return this;}
 
 #ifdef Feature_SHARED_EXTRAS
    Feature_SHARED_EXTRAS
@@ -208,6 +195,7 @@ public:
    method_EXTRAS
 #endif
 };
+
 
 // define constructor - attr
 class attr_class : public Feature_class {
@@ -223,10 +211,6 @@ public:
    }
    Feature copy_Feature();
    void dump(ostream& stream, int n);
-   bool is_method(){return false;}
-   Symbol get_name(){return name;}
-   Attr get_attr() { return this; }
-   method_class* getMethod() { return NULL;}
 
 #ifdef Feature_SHARED_EXTRAS
    Feature_SHARED_EXTRAS
@@ -249,7 +233,6 @@ public:
    }
    Formal copy_Formal();
    void dump(ostream& stream, int n);
-   Symbol get_name(){return name;}
 
 #ifdef Formal_SHARED_EXTRAS
    Formal_SHARED_EXTRAS
@@ -274,7 +257,6 @@ public:
    }
    Case copy_Case();
    void dump(ostream& stream, int n);
-   class branch_class* get_case(){ return this;}
 
 #ifdef Case_SHARED_EXTRAS
    Case_SHARED_EXTRAS
@@ -773,7 +755,6 @@ public:
    }
    Expression copy_Expression();
    void dump(ostream& stream, int n);
-   bool is_nil(){return true;}
 
 #ifdef Expression_SHARED_EXTRAS
    Expression_SHARED_EXTRAS
