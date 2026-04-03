@@ -1,0 +1,34 @@
+BEGIN	cool.flex	137
+BEGIN	cool.flex	140
+BEGIN	cool.flex	168
+BEGIN	cool.flex	205
+BEGIN	cool.flex	213
+BEGIN	cool.flex	278
+COMMENT	cool.flex	149
+DARROW	cool.flex	55
+MAX_STR_CONST	cool.flex	22
+OBJECTID	cool.flex	/^OBJECTID [a-z]({LETTER}|{DIGIT}|_)* $/
+SINGLE_LINE	cool.flex	135
+STR	cool.flex	188
+YY_INPUT	cool.flex	31
+YY_INPUT	cool.flex	/^#define YY_INPUT(buf,result,max_size) \\$/
+YY_NO_UNPUT	cool.flex	23
+comment_val	cool.flex	43
+comment_val	cool.flex	150
+error_msg	cool.flex	144
+error_msg	cool.flex	166
+error_msg	cool.flex	204
+error_msg	cool.flex	274
+error_msg	cool.flex	291
+i	cool.flex	217
+newstring	cool.flex	214
+print	cool.flex	/^void print(char c){$/
+ptr	cool.flex	214
+ptr	cool.flex	216
+ptr	cool.flex	262
+string_buf	cool.flex	36
+string_buf_ptr	cool.flex	37
+strlen	cool.flex	220
+symbol	cool.flex	269
+yylex	cool.flex	19
+yylval	cool.flex	18
